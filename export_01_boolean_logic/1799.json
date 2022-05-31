@@ -1,0 +1,425 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What type of error does the statement throws. ("
+                    },
+                    {
+                      "strong": true,
+                      "text": "Syntax Error, Runtime Error, or No Error)"
+                    }
+                  ],
+                  "id": "3316421867",
+                  "type": "p"
+                }
+              ],
+              "id": "2549766823"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "print(\"Hello World\""
+                    }
+                  ],
+                  "id": "2152800682",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Recollect the definitions of all the Python errors and try to relate with the problem."
+                    }
+                  ],
+                  "id": "3316421867",
+                  "type": "p"
+                }
+              ],
+              "id": "3660202583"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "print(\"Hello World\""
+                    }
+                  ],
+                  "id": "755315834",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "the parenthesis is opened, but it is not closed.  This causes "
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "syntax error"
+                        }
+                      ],
+                      "content": [
+                        {
+                          "children": [
+                            {
+                              "text": "you get a syntax error when the code you provide does not follow the rules of the Python language's syntax."
+                            }
+                          ],
+                          "id": "1279725108",
+                          "type": "p"
+                        }
+                      ],
+                      "id": "579086556",
+                      "trigger": "hover",
+                      "type": "popup"
+                    },
+                    {
+                      "text": "."
+                    }
+                  ],
+                  "id": "2152800682",
+                  "type": "p"
+                }
+              ],
+              "id": "606100819"
+            }
+          ],
+          "id": "2182376370",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done ! keep up the spirit "
+                      }
+                    ],
+                    "id": "1396150340",
+                    "type": "p"
+                  }
+                ],
+                "id": "2659086274"
+              },
+              "id": "594764052",
+              "rule": "input like {^Syntax Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oops !! Read the question carefully. Refer to the Syntax Errors from the content."
+                      }
+                    ],
+                    "id": "3919535089",
+                    "type": "p"
+                  }
+                ],
+                "id": "3620145612"
+              },
+              "id": "863598744",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What type of error does the statement throws. ("
+                    },
+                    {
+                      "strong": true,
+                      "text": "Syntax Error, Runtime Error, or No Error)"
+                    }
+                  ],
+                  "id": "3813193675",
+                  "type": "p"
+                }
+              ],
+              "id": "3861498638"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "print(Test)"
+                    }
+                  ],
+                  "id": "1138023731",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Carefully look at the question and analyse the type of the error."
+                    }
+                  ],
+                  "id": "3813193675",
+                  "type": "p"
+                }
+              ],
+              "id": "1247802411"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "print(Test)"
+                    }
+                  ],
+                  "id": "293572392",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "The syntax for the print statement is right . but, the word Test should either be in strings or should be declared as variable. Therefore it results in "
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Runtime error"
+                        }
+                      ],
+                      "content": [
+                        {
+                          "children": [
+                            {
+                              "text": "If an error occurs as the code is being executed, it's called a runtime error"
+                            }
+                          ],
+                          "id": "4119974874",
+                          "type": "p"
+                        }
+                      ],
+                      "id": "3421746886",
+                      "trigger": "hover",
+                      "type": "popup"
+                    },
+                    {
+                      "text": " "
+                    }
+                  ],
+                  "id": "1138023731",
+                  "type": "p"
+                }
+              ],
+              "id": "1938119139"
+            }
+          ],
+          "id": "209357689",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done. Specifically it is a Name Error"
+                      }
+                    ],
+                    "id": "1957667749",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "Name Error is a kind of error in python that occurs when executing a function, variable, library or string without quotes that have been typed in the code without any previous Declaration. When the interpreter, upon execution, cannot identify the global or a local name, it throws a Name Error"
+                          }
+                        ],
+                        "id": "1957667749",
+                        "type": "p"
+                      }
+                    ],
+                    "type": "blockquote"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "1154076769",
+                    "type": "p"
+                  }
+                ],
+                "id": "738163146"
+              },
+              "id": "191402798",
+              "rule": "input like {^Runtime Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Read the questions carefully. "
+                      }
+                    ],
+                    "id": "1933115944",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If you are feeling difficulty, don't worry. We shall cover this topics in the course thoroughly."
+                      }
+                    ],
+                    "id": "1933115944",
+                    "type": "p"
+                  }
+                ],
+                "id": "3240198087"
+              },
+              "id": "3084579819",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following lines of code, select whether it causes a Syntax Error, Runtime Error, or No Error. You are guaranteed that no code has a logical error. print(\"Hello World\"  print(Test) ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "489491967",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2943198771",
+        "inputType": "text",
+        "partId": "2182376370"
+      },
+      {
+        "id": "3505851649",
+        "inputType": "text",
+        "partId": "209357689"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following lines of code, select whether it causes a "
+            },
+            {
+              "strong": true,
+              "text": "Syntax Error, Runtime Error, or No Error"
+            },
+            {
+              "text": ". You are guaranteed that no code has a logical error. "
+            }
+          ],
+          "id": "4248865812",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "print(\"Hello World\"  "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2943198771",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "4248865812",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "print(Test) "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3505851649",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "4248865812",
+              "type": "li"
+            }
+          ],
+          "type": "ol"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "4248865812",
+          "type": "p"
+        }
+      ],
+      "id": "865722986"
+    }
+  },
+  "id": "1799",
+  "objectives": {
+    "209357689": [
+      "1232"
+    ],
+    "2182376370": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1663",
+    "1667"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,187 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Solve the given expression. You can take help from the truth table provided in the content above."
+                    }
+                  ],
+                  "id": "1467134730",
+                  "type": "p"
+                }
+              ],
+              "id": "3831256176"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The not operator is the Boolean or logical operator that implements negation in Python"
+                    }
+                  ],
+                  "id": "2426724",
+                  "type": "p"
+                }
+              ],
+              "id": "4192888844"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "x = 15 then, not(x == 10) ? "
+                    }
+                  ],
+                  "id": "3839400597",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "strong": true,
+                      "text": "Explanation"
+                    }
+                  ],
+                  "id": "3839400597",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "x == 10 --> False"
+                    }
+                  ],
+                  "id": "3839400597",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "not (False) -- > "
+                    },
+                    {
+                      "strong": true,
+                      "text": "True"
+                    }
+                  ],
+                  "id": "3839400597",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3839400597",
+                  "type": "p"
+                }
+              ],
+              "id": "3810964803"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep it up. "
+                      }
+                    ],
+                    "id": "3187569102",
+                    "type": "p"
+                  }
+                ],
+                "id": "112498199"
+              },
+              "id": "3025217775",
+              "rule": "input contains {True}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep solving !! check for the hints. If you are still facing difficulty solving. Re-read the content."
+                      }
+                    ],
+                    "id": "3846593814",
+                    "type": "p"
+                  }
+                ],
+                "id": "1249176080"
+              },
+              "id": "2624708402",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "If x = 15, what will the following expressions evaluate to?not(x == 10) ? ",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "If x = 15, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "3220258411",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "not(x == 10) ? "
+            }
+          ],
+          "id": "3220258411",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3220258411",
+          "type": "p"
+        }
+      ],
+      "id": "137012494"
+    }
+  },
+  "id": "1606",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1663",
+    "1802"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

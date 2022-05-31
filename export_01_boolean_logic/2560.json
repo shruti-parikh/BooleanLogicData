@@ -1,0 +1,121 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2768870499",
+                  "type": "p"
+                }
+              ],
+              "id": "471484292"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "2954535783",
+                    "type": "p"
+                  }
+                ],
+                "id": "3129320085"
+              },
+              "id": "1116255300",
+              "rule": "input contains {answer}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1671998146",
+                    "type": "p"
+                  }
+                ],
+                "id": "2007288738"
+              },
+              "id": "4285130543",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Example question with a fill in the blank",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3710517724",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2812692315",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Example question with a fill in the blank "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2812692315",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "2581027725",
+          "type": "p"
+        }
+      ],
+      "id": "3446393581"
+    }
+  },
+  "id": "2560",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

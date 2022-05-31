@@ -1,0 +1,593 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Syntax Errors"
+              }
+            ],
+            "id": "737614267",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": "Syntax Errors Occur due to Bad Syntax"
+              }
+            ],
+            "id": "48240145",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "When Python executes your code, it first has to break your text down into tokens, then structure those tokens into a format that the computer can execute."
+              }
+            ],
+            "id": "48240145",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "The programming language's syntax is a set of rules for how code instructions should be written. When syntax is correct, Python is able to tokenize and structure code without a problem. "
+              }
+            ],
+            "id": "48240145",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "If the interpreter runs into an error while tokenizing or structuring, it calls that a syntax error. In other words, you get a syntax error when the code you provide does not follow the rules of the Python language's syntax."
+              }
+            ],
+            "id": "48240145",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "A syntax error means that none of your code will run, because the syntax can't be parsed."
+              }
+            ],
+            "id": "48240145",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "48240145",
+            "type": "p"
+          }
+        ],
+        "id": "2149299317",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Most syntax errors are called "
+              },
+              {
+                "strong": true,
+                "text": "SyntaxError"
+              },
+              {
+                "text": ", which make them easy to spot. For example:"
+              }
+            ],
+            "id": "4231757882",
+            "type": "p"
+          },
+          {
+            "caption": "",
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "x = @ # @ is not a valid token"
+                  }
+                ],
+                "id": "1758650",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "4 + 5 = x # the parser stops because it doesn't follow the rules"
+                  }
+                ],
+                "id": "1758650",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "id": "1758650",
+                "type": "code_line"
+              }
+            ],
+            "id": "948545769",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": "There are two special types of syntax errors: "
+              },
+              {
+                "strong": true,
+                "text": "IndentationError "
+              },
+              {
+                "text": "and "
+              },
+              {
+                "strong": true,
+                "text": "incomplete error"
+              },
+              {
+                "text": "."
+              }
+            ],
+            "id": "3875558358",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "3875558358",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "   x = 4 # IndentationError: whitespace has meaning"
+                  }
+                ],
+                "id": "57616843",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "print(4 + 5 # Incomplete Error: always close parentheses/quotes"
+                  }
+                ],
+                "id": "57616843",
+                "type": "code_line"
+              }
+            ],
+            "id": "3114409392",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "3875558358",
+            "type": "p"
+          }
+        ],
+        "id": "1335830169",
+        "purpose": "example",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Runtime Errors"
+              }
+            ],
+            "id": "2798129259",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": "Execution Errors are Runtime Errors"
+              }
+            ],
+            "id": "387670374",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "After Python tokenizes and structures the code, the interpreter runs through the control flow of the program line-by-line. "
+              }
+            ],
+            "id": "387670374",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "If an error occurs as the code is being executed, it's called a runtime error. Everything that happened before that error will execute just fine, but everything afterwards will not run."
+              }
+            ],
+            "id": "387670374",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Runtime errors have many different names in Python. Each name says something about what kind of error occurred, so reading the name and text can give you additional information about what went wrong."
+              }
+            ],
+            "id": "387670374",
+            "type": "p"
+          }
+        ],
+        "id": "2654524069",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "3235284306",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "print(Hello) # NameError: used a missing variable"
+                  }
+                ],
+                "id": "3939159282",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "print(\"2\" + 3) # TypeError: illegal operation on types"
+                  }
+                ],
+                "id": "3939159282",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "x = 5 / 0 # ZeroDivisionError: can't divide by zero"
+                  }
+                ],
+                "id": "3939159282",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "id": "3939159282",
+                "type": "code_line"
+              }
+            ],
+            "id": "2610261919",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": "We'll see more types of runtime errors as we learn more Python syntax."
+              }
+            ],
+            "id": "3357001122",
+            "type": "p"
+          }
+        ],
+        "id": "2494855865",
+        "purpose": "example",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Logical Errors"
+              }
+            ],
+            "id": "2901850160",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": "Other Errors are Logical Errors"
+              }
+            ],
+            "id": "715050242",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "If we manage to run Python code completely, does that mean it's correct?"
+              }
+            ],
+            "id": "715050242",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Not necessarily! Logical errors can occur if code runs but produces a result that was not what the user intended. The computer can't catch logical errors because the computer doesn't know what we intend to do."
+              }
+            ],
+            "id": "715050242",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "To catch logical errors, you usually need to test your code. We'll do this mainly with "
+              },
+              {
+                "code": true,
+                "text": "assert "
+              },
+              {
+                "text": "statements."
+              }
+            ],
+            "id": "715050242",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "715050242",
+            "type": "p"
+          }
+        ],
+        "id": "1111596869",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "2615133871",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "print(\"2 + 2 = \", 5) # no error message, but wrong!"
+                  }
+                ],
+                "id": "1371832024",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "id": "1371832024",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "def double(x):"
+                  }
+                ],
+                "id": "1371832024",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " return x + 2 # adding instead of multiplying"
+                  }
+                ],
+                "id": "1371832024",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "id": "1371832024",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "assert(double(3) == 6) # 6 is the intended result"
+                  }
+                ],
+                "id": "1371832024",
+                "type": "code_line"
+              }
+            ],
+            "id": "896736026",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "406994784",
+            "type": "p"
+          }
+        ],
+        "id": "1633193395",
+        "purpose": "example",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "assert "
+              }
+            ],
+            "id": "3551315891",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": "assert Statements Check Correctness"
+              }
+            ],
+            "id": "3182664919",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "An assert statement takes a Boolean expression. If the expression evaluates to "
+              },
+              {
+                "code": true,
+                "text": "True"
+              },
+              {
+                "text": ", the statement does nothing. If it evaluates to "
+              },
+              {
+                "code": true,
+                "text": "False"
+              },
+              {
+                "text": ", the program crashes."
+              }
+            ],
+            "id": "3182664919",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "We use assert statements to check for logical errors by testing whether the output of a function call is equal to what we expect it to be. If the result is not correct, you get an "
+              },
+              {
+                "code": true,
+                "text": "AssertionError"
+              },
+              {
+                "text": "."
+              }
+            ],
+            "id": "3182664919",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "code": true,
+                "text": "assert(findAverage(20, 4) == 5)"
+              }
+            ],
+            "id": "3182664919",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Logical errors are the hardest to find and fix. You'll learn more about how to debug them in recitation this week."
+              }
+            ],
+            "id": "3182664919",
+            "type": "p"
+          }
+        ],
+        "id": "4217908863",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "count": 10,
+        "id": "1994917233",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  1232
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1663,
+                  1667
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "learnbydoing",
+        "type": "selection"
+      }
+    ]
+  },
+  "id": "1247",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": " Python errors",
+  "type": "Page",
+  "unresolvedReferences": []
+}

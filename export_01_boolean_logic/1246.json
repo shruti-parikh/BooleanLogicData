@@ -1,0 +1,1338 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Booleans are values that can be True or False "
+              }
+            ],
+            "id": "728911880",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "In week 1, we learned about the Boolean type, which can be one of two values: "
+              },
+              {
+                "code": true,
+                "text": "True "
+              },
+              {
+                "text": "or "
+              },
+              {
+                "code": true,
+                "text": "False"
+              },
+              {
+                "text": "."
+              }
+            ],
+            "id": "56772202",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Until now, we've made Boolean values by comparing different values, such as:"
+              }
+            ],
+            "id": "56772202",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "56772202",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "x < 5"
+                  }
+                ],
+                "id": "414452662",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "s == \"Hello\""
+                  }
+                ],
+                "id": "4247837840",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "7 >= 2"
+                  }
+                ],
+                "id": "4247837840",
+                "type": "code_line"
+              }
+            ],
+            "id": "888786733",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1901931685",
+            "type": "p"
+          }
+        ],
+        "id": "4013101343",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Logical Operations Combine Booleans"
+              }
+            ],
+            "id": "1885762575",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "We aren't limited to only evaluating a single Boolean comparison! We can combine Boolean values using logical operations. We'll learn about three – "
+              },
+              {
+                "code": true,
+                "text": "and"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "code": true,
+                "text": "or"
+              },
+              {
+                "text": ", and "
+              },
+              {
+                "code": true,
+                "text": "not"
+              },
+              {
+                "text": "."
+              }
+            ],
+            "id": "1602067504",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Combining Boolean values will let us check complex requirements while running code."
+              }
+            ],
+            "id": "1602067504",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1602067504",
+            "type": "p"
+          }
+        ],
+        "id": "465016999",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "code": true,
+                "text": "and "
+              },
+              {
+                "text": "Operation"
+              }
+            ],
+            "id": "1235177511",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "code": true,
+                "text": "and "
+              },
+              {
+                "text": "Operation Checks Both"
+              }
+            ],
+            "id": "852350925",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "The "
+              },
+              {
+                "code": true,
+                "text": "and "
+              },
+              {
+                "text": "operation takes two Boolean values and evaluates to"
+              },
+              {
+                "code": true,
+                "text": " True "
+              },
+              {
+                "text": "if both values are "
+              },
+              {
+                "code": true,
+                "text": "True"
+              },
+              {
+                "text": ". In other words, it evaluates to "
+              },
+              {
+                "code": true,
+                "text": "False "
+              },
+              {
+                "text": "if either value is "
+              },
+              {
+                "code": true,
+                "text": "False"
+              },
+              {
+                "text": "."
+              }
+            ],
+            "id": "852350925",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "We use "
+              },
+              {
+                "code": true,
+                "text": "and "
+              },
+              {
+                "text": "when we want to require that both conditions be met at the same time."
+              }
+            ],
+            "id": "852350925",
+            "type": "p"
+          },
+          {
+            "caption": "and Truth Table",
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "a"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2884029284",
+                    "type": "th"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "b"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1051103893",
+                    "type": "th"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "a "
+                          },
+                          {
+                            "code": true,
+                            "text": "and "
+                          },
+                          {
+                            "text": "b"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3134238268",
+                    "type": "th"
+                  }
+                ],
+                "id": "2721946053",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2471027677",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1676887882",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3515511716",
+                    "type": "td"
+                  }
+                ],
+                "id": "2826096962",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1889284510",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "430359440",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2128248414",
+                    "type": "td"
+                  }
+                ],
+                "id": "3035225524",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1086971568",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "11876031",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3615901175",
+                    "type": "td"
+                  }
+                ],
+                "id": "2375900842",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3695233814",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2681870524",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2259288198",
+                    "type": "td"
+                  }
+                ],
+                "id": "3714473633",
+                "type": "tr"
+              }
+            ],
+            "id": "3926065490",
+            "type": "table"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "561065570",
+            "type": "p"
+          }
+        ],
+        "id": "803738233",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "If you still find it difficult to understand "
+              },
+              {
+                "code": true,
+                "text": "and "
+              },
+              {
+                "text": "operator . "
+              }
+            ],
+            "id": "1641310872",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Kindly watch the Video on "
+              },
+              {
+                "code": true,
+                "text": "and"
+              },
+              {
+                "text": " operator "
+              }
+            ],
+            "id": "2297344180",
+            "type": "p"
+          }
+        ],
+        "id": "1710195710",
+        "purpose": "learnmore",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "code": true,
+                "text": "or "
+              },
+              {
+                "text": "Operation"
+              }
+            ],
+            "id": "1178907344",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "code": true,
+                "text": "or "
+              },
+              {
+                "text": "Operation Checks Either"
+              }
+            ],
+            "id": "120327340",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "The "
+              },
+              {
+                "code": true,
+                "text": "or "
+              },
+              {
+                "text": "operation takes two Boolean values and evaluates to "
+              },
+              {
+                "code": true,
+                "text": "True "
+              },
+              {
+                "text": "if either value is "
+              },
+              {
+                "code": true,
+                "text": "True"
+              },
+              {
+                "text": ". In other words, it only"
+              }
+            ],
+            "id": "120327340",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "evaluates to "
+              },
+              {
+                "code": true,
+                "text": "False "
+              },
+              {
+                "text": "if both values are"
+              },
+              {
+                "code": true,
+                "text": " False"
+              },
+              {
+                "text": "."
+              }
+            ],
+            "id": "120327340",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "We use "
+              },
+              {
+                "code": true,
+                "text": "or "
+              },
+              {
+                "text": "when there are multiple valid conditions to choose from."
+              }
+            ],
+            "id": "120327340",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "120327340",
+            "type": "p"
+          },
+          {
+            "caption": "or Truth Table",
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "a"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2741876620",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "b"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3627859065",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "a "
+                          },
+                          {
+                            "code": true,
+                            "text": "or "
+                          },
+                          {
+                            "text": "b "
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2323603218",
+                    "type": "td"
+                  }
+                ],
+                "id": "440729145",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3996164875",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2801830849",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "86927472",
+                    "type": "td"
+                  }
+                ],
+                "id": "2834510993",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2672202274",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3493769073",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1085047410",
+                    "type": "td"
+                  }
+                ],
+                "id": "2004279714",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "2438229319",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3575780368",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "606252419",
+                    "type": "td"
+                  }
+                ],
+                "id": "903227858",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3721126299",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1493602762",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "800413796",
+                    "type": "td"
+                  }
+                ],
+                "id": "3768841544",
+                "type": "tr"
+              }
+            ],
+            "id": "2947716391",
+            "type": "table"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "518050608",
+            "type": "p"
+          },
+          {
+            "caption": "Example",
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "Example:"
+                  }
+                ],
+                "id": "1984081729",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "id": "1984081729",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "(day == \"Saturday\") or (day == \"Sunday\")"
+                  }
+                ],
+                "id": "1984081729",
+                "type": "code_line"
+              }
+            ],
+            "id": "1496445928",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1124014996",
+            "type": "p"
+          }
+        ],
+        "id": "2123156418",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "If you still find it difficult to understand "
+              },
+              {
+                "code": true,
+                "text": "or "
+              },
+              {
+                "text": "operator . "
+              }
+            ],
+            "id": "1868304671",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Kindly watch the Video on "
+              },
+              {
+                "code": true,
+                "text": "or"
+              },
+              {
+                "text": " operator "
+              }
+            ],
+            "id": "2297344180",
+            "type": "p"
+          }
+        ],
+        "id": "3222423768",
+        "purpose": "learnmore",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "code": true,
+                "text": "not "
+              },
+              {
+                "text": "Operation"
+              }
+            ],
+            "id": "3230097911",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "code": true,
+                "text": "not "
+              },
+              {
+                "text": "Operation Reverses Result"
+              }
+            ],
+            "id": "1536972869",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Finally, the "
+              },
+              {
+                "code": true,
+                "text": "not "
+              },
+              {
+                "text": "operation takes a single Boolean value and switches it to the opposite value (negates it). "
+              },
+              {
+                "code": true,
+                "text": "not True "
+              },
+              {
+                "text": "becomes "
+              },
+              {
+                "code": true,
+                "text": "False"
+              },
+              {
+                "text": ", and "
+              },
+              {
+                "code": true,
+                "text": "not False"
+              },
+              {
+                "text": " becomes "
+              },
+              {
+                "code": true,
+                "text": "True"
+              },
+              {
+                "text": ". We use not to switch the result of a Boolean expression. "
+              }
+            ],
+            "id": "1536972869",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1536972869",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "a"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1346068264",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "code": true,
+                            "text": "not "
+                          },
+                          {
+                            "text": "a"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "687249874",
+                    "type": "td"
+                  }
+                ],
+                "id": "1143667043",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1940657027",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "3765283477",
+                    "type": "td"
+                  }
+                ],
+                "id": "3348637732",
+                "type": "tr"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "False"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1763389112",
+                    "type": "td"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "True"
+                          }
+                        ],
+                        "type": "p"
+                      }
+                    ],
+                    "id": "1697418951",
+                    "type": "td"
+                  }
+                ],
+                "id": "3735061002",
+                "type": "tr"
+              }
+            ],
+            "id": "3984792908",
+            "type": "table"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "2771205891",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "Example:"
+                  }
+                ],
+                "id": "2303907375",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "not (x == 0)"
+                  }
+                ],
+                "id": "2303907375",
+                "type": "code_line"
+              }
+            ],
+            "id": "3651312632",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "4262683892",
+            "type": "p"
+          }
+        ],
+        "id": "221568635",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "If you still find it difficult to understand "
+              },
+              {
+                "code": true,
+                "text": "not "
+              },
+              {
+                "text": "operator . "
+              }
+            ],
+            "id": "3292469108",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Kindly watch the Video on "
+              },
+              {
+                "code": true,
+                "text": "not"
+              },
+              {
+                "text": " operator "
+              }
+            ],
+            "id": "2297344180",
+            "type": "p"
+          }
+        ],
+        "id": "1369571086",
+        "purpose": "learnmore",
+        "type": "content"
+      },
+      {
+        "count": 18,
+        "id": "3014160066",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  1231
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1663,
+                  1667
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "didigetthis",
+        "type": "selection"
+      }
+    ]
+  },
+  "id": "1246",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Logical operators",
+  "type": "Page",
+  "unresolvedReferences": []
+}

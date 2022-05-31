@@ -1,0 +1,511 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What is the truth value of the given expression?"
+                    }
+                  ],
+                  "id": "879266200",
+                  "type": "p"
+                }
+              ],
+              "id": "2885796166"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The expression is combination of two simple expressions, evaluate them individually and try combining the truth values to get the final answer. "
+                    }
+                  ],
+                  "id": "486930705",
+                  "type": "p"
+                }
+              ],
+              "id": "304017469"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "(4 > 5) is False "
+                    }
+                  ],
+                  "id": "1546381524",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "(\"foo\" == \"foo\") is True"
+                    }
+                  ],
+                  "id": "3557629234",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "hence False and True is False."
+                    }
+                  ],
+                  "id": "3557629234",
+                  "type": "p"
+                }
+              ],
+              "id": "3392960267"
+            }
+          ],
+          "id": "3281059359",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You got it right !!"
+                      }
+                    ],
+                    "id": "1263864579",
+                    "type": "p"
+                  }
+                ],
+                "id": "1218918587"
+              },
+              "id": "1639277923",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Read the question carefully and try to attempt it. "
+                      }
+                    ],
+                    "id": "2699442923",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "2699442923",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the "
+                      },
+                      {
+                        "code": true,
+                        "text": "and "
+                      },
+                      {
+                        "text": "operations from the content again"
+                      }
+                    ],
+                    "id": "2699442923",
+                    "type": "p"
+                  }
+                ],
+                "id": "468423"
+              },
+              "id": "2660898164",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What is the truth value of the given expression?"
+                    }
+                  ],
+                  "id": "901751455",
+                  "type": "p"
+                }
+              ],
+              "id": "3482503887"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The expression is combination of two simple expressions. Evaluate them individually and try combining the truth values to get the final answer. "
+                    }
+                  ],
+                  "id": "3585843216",
+                  "type": "p"
+                }
+              ],
+              "id": "2626535334"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "(10 > 0)  is True"
+                    }
+                  ],
+                  "id": "2678275811",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "(0 == 1/0) is False"
+                    }
+                  ],
+                  "id": "2678275811",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Hence, True or False is True "
+                    }
+                  ],
+                  "id": "2678275811",
+                  "type": "p"
+                }
+              ],
+              "id": "16545221"
+            }
+          ],
+          "id": "3306859779",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Yey !! One more to go "
+                      }
+                    ],
+                    "id": "2826186626",
+                    "type": "p"
+                  }
+                ],
+                "id": "3906048062"
+              },
+              "id": "138965190",
+              "rule": "input like {^True$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Make use of hints to solve the question. If you still find it difficult, please refer to the "
+                      },
+                      {
+                        "code": true,
+                        "text": "or "
+                      },
+                      {
+                        "text": "operation from the content again"
+                      }
+                    ],
+                    "id": "3424835277",
+                    "type": "p"
+                  }
+                ],
+                "id": "3193230417"
+              },
+              "id": "1369683807",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What is the truth value of the given expression?"
+                    }
+                  ],
+                  "id": "1395528737",
+                  "type": "p"
+                }
+              ],
+              "id": "11467559"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The expression is combination of two simple expressions, evaluate them individually and try combining the truth values to get the final answer. "
+                    }
+                  ],
+                  "id": "1533813551",
+                  "type": "p"
+                }
+              ],
+              "id": "134088452"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "True and False is False"
+                    }
+                  ],
+                  "id": "3557629234",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Hence, not(False) is True"
+                    }
+                  ],
+                  "id": "3557629234",
+                  "type": "p"
+                }
+              ],
+              "id": "1003597889"
+            }
+          ],
+          "id": "1866502380",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Congratulations ! You cleared the questions"
+                      }
+                    ],
+                    "id": "3215160673",
+                    "type": "p"
+                  }
+                ],
+                "id": "2629545621"
+              },
+              "id": "3860312418",
+              "rule": "input like {^True$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "No to worry.  "
+                      }
+                    ],
+                    "id": "986332945",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Please refer to the "
+                      },
+                      {
+                        "code": true,
+                        "text": "and "
+                      },
+                      {
+                        "text": "and "
+                      },
+                      {
+                        "code": true,
+                        "text": "not "
+                      },
+                      {
+                        "text": "operators from the  content again and try to attempt the question."
+                      }
+                    ],
+                    "id": "986332945",
+                    "type": "p"
+                  }
+                ],
+                "id": "3173725503"
+              },
+              "id": "1898718946",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Evaluating Boolean Expressions (For each of the following Boolean expressions, determine whether it evaluates to True, False, or an error)(4 > 5) and (\"foo\" == \"foo\")  (10 > 0) or (0 == 1/0)  not (True and False)  ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3186627623",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3833349751",
+        "inputType": "text",
+        "partId": "3281059359"
+      },
+      {
+        "id": "183420588",
+        "inputType": "text",
+        "partId": "3306859779"
+      },
+      {
+        "id": "2500581981",
+        "inputType": "text",
+        "partId": "1866502380"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Evaluating Boolean Expressions (For each of the following Boolean expressions, determine whether it evaluates to True, False, or an error)"
+            }
+          ],
+          "id": "1463091923",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "(4 > 5) and (\"foo\" == \"foo\")  "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3833349751",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1463091923",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "(10 > 0) or (0 == 1/0)  "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "183420588",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1463091923",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "not (True and False)  "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2500581981",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1463091923",
+              "type": "li"
+            }
+          ],
+          "type": "ol"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1463091923",
+          "type": "p"
+        }
+      ],
+      "id": "1262008981"
+    }
+  },
+  "id": "1796",
+  "objectives": {
+    "1866502380": [
+      "1231"
+    ],
+    "3281059359": [
+      "1231"
+    ],
+    "3306859779": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1663",
+    "1667"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

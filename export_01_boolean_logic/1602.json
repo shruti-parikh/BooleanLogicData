@@ -1,0 +1,164 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2928782405",
+                  "type": "p"
+                }
+              ],
+              "id": "1516045885"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2587150034",
+                  "type": "p"
+                }
+              ],
+              "id": "4132214746"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "207265892",
+                  "type": "p"
+                }
+              ],
+              "id": "2519118658"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done !! "
+                      }
+                    ],
+                    "id": "133625684",
+                    "type": "p"
+                  }
+                ],
+                "id": "322844154"
+              },
+              "id": "2851722316",
+              "rule": "input like {2006263355}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Read the question carefully and Try again."
+                      }
+                    ],
+                    "id": "3709762530",
+                    "type": "p"
+                  }
+                ],
+                "id": "3986735071"
+              },
+              "id": "3335049448",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "India Scored 277 runs within 48 overs and won the match by 6 wickets. Calculate the Run-rate (RR) and state if RR is >= 5",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1653278246",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "True"
+              }
+            ],
+            "id": "2083417374",
+            "type": "p"
+          }
+        ],
+        "id": "688571398"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "False"
+              }
+            ],
+            "id": "218562242",
+            "type": "p"
+          }
+        ],
+        "id": "2006263355"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "India Scored 277 runs within 48 overs and won the match by 6 wickets. Calculate the Run-rate (RR) and state if RR is >= 5"
+            }
+          ],
+          "id": "521190985",
+          "type": "p"
+        }
+      ],
+      "id": "3027515722"
+    }
+  },
+  "id": "1602",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1662"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

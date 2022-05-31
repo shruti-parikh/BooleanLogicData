@@ -1,0 +1,165 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for graded assignment."
+                    }
+                  ],
+                  "id": "1464186098",
+                  "type": "p"
+                }
+              ],
+              "id": "4177908483"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "251261349",
+                  "type": "p"
+                }
+              ],
+              "id": "1036766167"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "strong": true,
+                      "text": ""
+                    }
+                  ],
+                  "id": "3892329569",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3892329569",
+                  "type": "p"
+                }
+              ],
+              "id": "1102565105"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done. Keep up the same enthusiasm."
+                      }
+                    ],
+                    "id": "3899210617",
+                    "type": "p"
+                  }
+                ],
+                "id": "899683619"
+              },
+              "id": "383987875",
+              "rule": "input contains {True}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Grr!!!!! you answered it wrong, "
+                      }
+                    ],
+                    "id": "3219920779",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Refer to the Logical operations in the Booleans and Errors unit."
+                      }
+                    ],
+                    "id": "3219920779",
+                    "type": "p"
+                  }
+                ],
+                "id": "71887958"
+              },
+              "id": "3403799000",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "If x = 15, what will the following expressions evaluate to?(x >= 0) or (x < 10)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "If x = 15, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "3799054623",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "(x >= 0) or (x < 10)"
+            }
+          ],
+          "id": "3799054623",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3799054623",
+          "type": "p"
+        }
+      ],
+      "id": "269484223"
+    }
+  },
+  "id": "1605",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1919",
+    "1662"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

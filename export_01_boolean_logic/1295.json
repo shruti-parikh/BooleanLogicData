@@ -1,0 +1,198 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "609291609",
+                  "type": "p"
+                }
+              ],
+              "id": "3506810502"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3650474393",
+                  "type": "p"
+                }
+              ],
+              "id": "1767725569"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2409542045",
+                  "type": "p"
+                }
+              ],
+              "id": "2923297625"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "2849266501",
+                    "type": "p"
+                  }
+                ],
+                "id": "2127562360"
+              },
+              "id": "4267707982",
+              "rule": "input contains {answer}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "I see where you are going. Write down in steps on how you arrived to the solution. and check with the Truth Tables of the logical operator present in the question."
+                      }
+                    ],
+                    "id": "3086707731",
+                    "type": "p"
+                  }
+                ],
+                "id": "1751544070"
+              },
+              "id": "524195952",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "pset_time = 15sleep_time = 8print(sleep_time > pset_time)drink = Truedrive = Falseboth = drink and driveprint(both)What does the above code print? ( your answer should be in this format \"first answer then second answer\" )",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "code": true,
+              "text": "pset_time = 15"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "code": true,
+              "text": "sleep_time = 8"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "code": true,
+              "text": "print(sleep_time > pset_time)"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "code": true,
+              "text": "drink = True"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "code": true,
+              "text": "drive = False"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "code": true,
+              "text": "both = drink and drive"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "code": true,
+              "text": "print(both)"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "What does the above code print? ( your answer should be in this format \"first answer then second answer\" )"
+            }
+          ],
+          "id": "1833244208",
+          "type": "p"
+        }
+      ],
+      "id": "606177667"
+    }
+  },
+  "id": "1295",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1664",
+    "1665"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

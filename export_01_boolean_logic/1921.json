@@ -1,0 +1,276 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for graded assignment."
+                    }
+                  ],
+                  "id": "3481637728",
+                  "type": "p"
+                }
+              ],
+              "id": "2861863263"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4260876611",
+                  "type": "p"
+                }
+              ],
+              "id": "2160666398"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "330575638",
+                  "type": "p"
+                }
+              ],
+              "id": "2733693422"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep it up !!!"
+                      }
+                    ],
+                    "id": "1555589236",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Given, x = 25."
+                      }
+                    ],
+                    "id": "1555589236",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "((x > 5) or (x**2 > 50)) and (x == 20)"
+                      }
+                    ],
+                    "id": "1555589236",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "1555589236",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "Explanation : "
+                      },
+                      {
+                        "text": "let us break the question first and then combine "
+                      }
+                    ],
+                    "id": "1555589236",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "(x > 5) -->(25 > 5) --> True"
+                          }
+                        ],
+                        "id": "1555589236",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "(x**2 > 50) --> (625 > 50) --> True"
+                          }
+                        ],
+                        "id": "1555589236",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "(x == 20) --> (25 == 20) --> False"
+                          }
+                        ],
+                        "id": "1555589236",
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Now lets combine the equation:"
+                      }
+                    ],
+                    "id": "3618172922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "we get : (True or True) and False"
+                      }
+                    ],
+                    "id": "3618172922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "True and False --> False"
+                      }
+                    ],
+                    "id": "3618172922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "3618172922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "Ans"
+                      },
+                      {
+                        "text": " : False"
+                      }
+                    ],
+                    "id": "3618172922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "2617147125",
+                    "type": "p"
+                  }
+                ],
+                "id": "495588068"
+              },
+              "id": "2916160224",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! Something was not right about your answer. Lets learn about the logical operators in the upcoming module."
+                      }
+                    ],
+                    "id": "3122398925",
+                    "type": "p"
+                  }
+                ],
+                "id": "3758523400"
+              },
+              "id": "2937038594",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Guess the ResultIf x = 25, what will the following expressions evaluate to?((x > 5) or (x**2 > 50)) and (x == 20)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Guess the Result"
+            }
+          ],
+          "id": "4237142578",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "If x = 25, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "4237142578",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "((x > 5) or (x**2 > 50)) and (x == 20)"
+            }
+          ],
+          "id": "4237142578",
+          "type": "p"
+        }
+      ],
+      "id": "2838913572"
+    }
+  },
+  "id": "1921",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1919",
+    "1661"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

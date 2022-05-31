@@ -1,0 +1,221 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Which error will be thrown if the following section of code is executed assuming there is no other code in the file?"
+                    }
+                  ],
+                  "id": "4150427744",
+                  "type": "p"
+                }
+              ],
+              "id": "3392087553"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "S = \"I'm in \" + 15-110"
+                    }
+                  ],
+                  "id": "3860488717",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Try evaluating the expression on the right considering data types of operands. "
+                    }
+                  ],
+                  "id": "3860488717",
+                  "type": "p"
+                }
+              ],
+              "id": "3947449414"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "S = \"I'm in \" + 15-110"
+                    }
+                  ],
+                  "id": "1048924014",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "It says \"I'm in \" + 15-110.  \"I'm in \"(str) +  15(int). Integer cannot be added to string ( data types should be same to undergo operations) therefore it throws a runtime error though syntactically right."
+                    }
+                  ],
+                  "id": "1048924014",
+                  "type": "p"
+                }
+              ],
+              "id": "220131557"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Absolutely correct "
+                      }
+                    ],
+                    "id": "2393870763",
+                    "type": "p"
+                  }
+                ],
+                "id": "1709133524"
+              },
+              "id": "2933168255",
+              "rule": "input like {3105183220}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You need to check for the data types and its operations. Kindly, Refer to the Syntax Errors from the content to understand such errors better."
+                      }
+                    ],
+                    "id": "714057397",
+                    "type": "p"
+                  }
+                ],
+                "id": "1112353107"
+              },
+              "id": "2859720193",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file.S = \"I'm in \" + 15-110",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1043469020",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Syntax Error"
+              }
+            ],
+            "id": "3034447172",
+            "type": "p"
+          }
+        ],
+        "id": "21107324"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Runtime Error"
+              }
+            ],
+            "id": "4202061484",
+            "type": "p"
+          }
+        ],
+        "id": "3105183220"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "No Error"
+              }
+            ],
+            "id": "1684699066",
+            "type": "p"
+          }
+        ],
+        "id": "1567487829"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Logical Error"
+              }
+            ],
+            "id": "1468150932",
+            "type": "p"
+          }
+        ],
+        "id": "3638552772"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file."
+            }
+          ],
+          "id": "3578088834",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "S = \"I'm in \" + 15-110"
+            }
+          ],
+          "id": "3578088834",
+          "type": "p"
+        }
+      ],
+      "id": "3891170709"
+    }
+  },
+  "id": "1804",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1663",
+    "1667"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

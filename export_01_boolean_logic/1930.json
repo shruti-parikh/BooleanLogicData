@@ -1,0 +1,546 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not enabled for graded tests."
+                    }
+                  ],
+                  "id": "2366172513",
+                  "type": "p"
+                }
+              ],
+              "id": "2097917915"
+            }
+          ],
+          "id": "810099367",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You got it right!"
+                      }
+                    ],
+                    "id": "3191338592",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Strings are enclosed within single or double quotes. In the given question, the string started with single quote and was closed by double quote. Therefore resulting in Syntax error."
+                      }
+                    ],
+                    "id": "3191338592",
+                    "type": "p"
+                  }
+                ],
+                "id": "327858363"
+              },
+              "id": "1041807250",
+              "rule": "input like {^Syntax Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Not to worry,  lets learn about the python errors it in the next module"
+                      }
+                    ],
+                    "id": "2789369986",
+                    "type": "p"
+                  }
+                ],
+                "id": "2352257257"
+              },
+              "id": "326016720",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not enabled for graded tests."
+                    }
+                  ],
+                  "id": "154002122",
+                  "type": "p"
+                }
+              ],
+              "id": "2615049369"
+            }
+          ],
+          "id": "4139194497",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Wasn't that smart!!"
+                      }
+                    ],
+                    "id": "2190285306",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "2190285306",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Variable is the identifier that holds measurable data. That means 10+20 = x would throw syntax error. The correct way of representing is x = 10+20."
+                      }
+                    ],
+                    "id": "2190285306",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "2190285306",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "2190285306",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "2190285306",
+                    "type": "p"
+                  }
+                ],
+                "id": "4219614289"
+              },
+              "id": "4180389895",
+              "rule": "input like {^Syntax Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oh no !! you answered it wrong. "
+                      }
+                    ],
+                    "id": "1628725813",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "lets learn about the python errors it in the next module"
+                      }
+                    ],
+                    "id": "2789369986",
+                    "type": "p"
+                  }
+                ],
+                "id": "2075046366"
+              },
+              "id": "1329554868",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not enabled for graded tests."
+                    }
+                  ],
+                  "id": "4171735528",
+                  "type": "p"
+                }
+              ],
+              "id": "2530415135"
+            }
+          ],
+          "id": "677374539",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "you got it correct!"
+                      }
+                    ],
+                    "id": "399948731",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "\"can't assign to literal\" !! "
+                      }
+                    ],
+                    "id": "399948731",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "This error occurs when we try to assign a value to a literal value such as a Boolean, a string, a list, or a number. "
+                      }
+                    ],
+                    "id": "399948731",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "y was assigned to 10. which led to Syntax Error"
+                      }
+                    ],
+                    "id": "399948731",
+                    "type": "p"
+                  }
+                ],
+                "id": "2617322800"
+              },
+              "id": "3326056576",
+              "rule": "input contains {^Syntax Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Don't loose the hope."
+                      }
+                    ],
+                    "id": "2789369986",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Gear up and lets learn about the python errors it in the next module"
+                      }
+                    ],
+                    "id": "2789369986",
+                    "type": "p"
+                  }
+                ],
+                "id": "3924293321"
+              },
+              "id": "2658415205",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not enabled for graded tests."
+                    }
+                  ],
+                  "id": "4208727164",
+                  "type": "p"
+                }
+              ],
+              "id": "1062700424"
+            }
+          ],
+          "id": "3513609149",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent!"
+                      }
+                    ],
+                    "id": "1099633338",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "The name 'amount' is not defined, leading to name error( Runtime Error)"
+                      }
+                    ],
+                    "id": "1099633338",
+                    "type": "p"
+                  }
+                ],
+                "id": "1286830304"
+              },
+              "id": "2137558964",
+              "rule": "input contains {^Runtime Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Grr!! Incorrect Answer !! "
+                      }
+                    ],
+                    "id": "2688211341",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Gear up and lets learn about the python errors it in the next module"
+                      }
+                    ],
+                    "id": "2789369986",
+                    "type": "p"
+                  }
+                ],
+                "id": "3296001287"
+              },
+              "id": "264918696",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following lines of code, select whether it causes a Syntax Error, Runtime Error, or No Error. You are guaranteed that no code has a logical error. Print('How are you\") 22 + 11 = x x = 10 = z print('The calculated amount is :', amount) ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3028853121",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "1721213186",
+        "inputType": "text",
+        "partId": "810099367"
+      },
+      {
+        "id": "2886294318",
+        "inputType": "text",
+        "partId": "4139194497"
+      },
+      {
+        "id": "2292631141",
+        "inputType": "text",
+        "partId": "677374539"
+      },
+      {
+        "id": "2804446329",
+        "inputType": "text",
+        "partId": "3513609149"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following lines of code, select whether it causes a Syntax Error, Runtime Error, or No Error. You are guaranteed that no code has a logical error. "
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Print('How are you\") "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1721213186",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "22 + 11 = x "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2886294318",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "x = 10 = z "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2292631141",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print('The calculated amount is :', amount) "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2804446329",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1972878777",
+          "type": "p"
+        }
+      ],
+      "id": "2409704945"
+    }
+  },
+  "id": "1930",
+  "objectives": {
+    "3513609149": [
+      "1232"
+    ],
+    "4139194497": [
+      "1232"
+    ],
+    "677374539": [
+      "1232"
+    ],
+    "810099367": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1919",
+    "1661"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,166 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3258599290",
+                  "type": "p"
+                }
+              ],
+              "id": "2992468483"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3623751271",
+                  "type": "p"
+                }
+              ],
+              "id": "1012612739"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1075518392",
+                  "type": "p"
+                }
+              ],
+              "id": "3434502409"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent. "
+                      }
+                    ],
+                    "id": "2348475591",
+                    "type": "p"
+                  }
+                ],
+                "id": "3236817582"
+              },
+              "id": "2661991143",
+              "rule": "input like {147057300}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "444131375",
+                    "type": "p"
+                  }
+                ],
+                "id": "2381980098"
+              },
+              "id": "413534150",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Dividing any natural number with 0 throws which error .",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3542071795",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Run-Time Error"
+              }
+            ],
+            "id": "730664428",
+            "type": "p"
+          }
+        ],
+        "id": "147057300"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Syntax Error"
+              }
+            ],
+            "id": "1379779421",
+            "type": "p"
+          }
+        ],
+        "id": "979751111"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Dividing any natural number with 0 throws which error ."
+            }
+          ],
+          "id": "1244874341",
+          "type": "p"
+        }
+      ],
+      "id": "3944168763"
+    }
+  },
+  "id": "1753",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1661",
+    "1663",
+    "1802"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

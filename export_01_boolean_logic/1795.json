@@ -1,0 +1,86 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "3132230584",
+            "type": "p"
+          }
+        ],
+        "id": "351627071",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "count": 6,
+        "id": "2014986734",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1919,
+                  1662
+                ]
+              },
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  1231
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      },
+      {
+        "count": 10,
+        "id": "3448210924",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1919,
+                  1662
+                ]
+              },
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  1232
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      }
+    ]
+  },
+  "id": "1795",
+  "isGraded": true,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Post-Test ",
+  "type": "Page",
+  "unresolvedReferences": []
+}

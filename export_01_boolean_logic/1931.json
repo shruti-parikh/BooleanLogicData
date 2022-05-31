@@ -1,0 +1,248 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1039388849",
+                  "type": "p"
+                }
+              ],
+              "id": "2566880645"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4061197597",
+                  "type": "p"
+                }
+              ],
+              "id": "2254204953"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1321047497",
+                  "type": "p"
+                }
+              ],
+              "id": "2968311026"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Bravo!"
+                      }
+                    ],
+                    "id": "1765934168",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "The following code throws logical error, "
+                      }
+                    ],
+                    "id": "1765934168",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If you see the function name it says sum of two numbers and now if you see the return value it is difference of number. Clearly, wrong logic is applied. "
+                      }
+                    ],
+                    "id": "1765934168",
+                    "type": "p"
+                  }
+                ],
+                "id": "2734860494"
+              },
+              "id": "3615706807",
+              "rule": "input like {1413049982}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Not to worry, "
+                      }
+                    ],
+                    "id": "2127702985",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "We can learn about the error in the next module."
+                      }
+                    ],
+                    "id": "2127702985",
+                    "type": "p"
+                  }
+                ],
+                "id": "670626597"
+              },
+              "id": "335336528",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "313173479",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Syntax Error"
+              }
+            ],
+            "id": "2003216022",
+            "type": "p"
+          }
+        ],
+        "id": "2263809905"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Runtime Error"
+              }
+            ],
+            "id": "1741285900",
+            "type": "p"
+          }
+        ],
+        "id": "3294687370"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Logical Error"
+              }
+            ],
+            "id": "2312644011",
+            "type": "p"
+          }
+        ],
+        "id": "1413049982"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "No error"
+              }
+            ],
+            "id": "2396172371",
+            "type": "p"
+          }
+        ],
+        "id": "1960360532"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file."
+            }
+          ],
+          "id": "2723543550",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2723543550",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "133199483",
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARcAAABSCAYAAAB+MZC/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAA40SURBVHhe7Z1/aBxlGsenaWytQvEPif0jGKwiXrC2lfZopfYC2iOYQOWCTTFQsKbxKLSJOQoqwuWotJVy9pfUo9YIgkJSeig00J4t9IpQuRSltqQiWin0Dw35Q4RWbdN683l3nmQymexudnc22c33A8O78+67s++8M+/3fd7nnd1n1rVr1373hBCiwFQEqRBCFBSJixAiESQuQohEkLgIIRJB4iKESIQpF5f+/gpv06Y53t133+U2Xg8NzQreFdnQ39/vt9smv/3udhuvh4aGgneFmBomvRS9bdsc7+DBSu/atetBTu4gIjU184K9UQYHr/udJNgRaUFEampqgr1RBgcHndCUE/696nV0dLjXe/fuLavzu3LlitfS0uI999xzXnt7e5Bb2kyp5XLq1GyXdnffcGLFNjDwi4RlEpw6dcql3d3drvOxDQwMSFhKDAaIDz/80Dty5Ii3b9++ILe0mRY+l8bG4eAVjaxn+nKhsbExeJW6UcuNrq4u79KlS97OnTvLTlgMrturr77qvfbaa15fX1+QW7pMqbicO5f6elkquXPu3DmXFrrDYSk0NTV5PT09Qc7Ucfr0aX8qftDbsmWLd++99wa55UlDQ4O3efNmJ6Jcg3Tw/qpVq5yPbToyobhwXvv23eFX/k7/xr3L+VrSOVqvXJnlbd8+Wr6paa77fLR9enoq3fts+G7A9tn4nnyJOjjpJO+99944J+e2bdvc+3GQz/sG+9zkdDZem+lq+3xHvk5UpjPbt293x2PjHPjOKPadbHQ6sH22cL0nC+fA8Tds2OAdP37c27hx45hjm9jY1IvUoI3DZYARmLxwR+GcwteHcw4fJwrThaVLl46xzqJwzTlW3JTCrjN+jaSxDs85xWH1TGeZrFu3zvvyyy+9Y8eOBTnxcD6U++ijj4Kc6cWE4tLRMcc3z+7wK58qghC89NIc76ef3O4YEJaWlrnerl2j5Y8fn+0+z3GiApMk3KR1dXVjGpxOsnXrVu/ixYtBTm6cP3/edTYw09X2+Q46Qa5w0y1fvtxvw11BjufOgZGsmHPwN998050T55OO2tpal164cMGl8PXXXzsR+Oabb4Icz/v222+9+vp616EAAeKcwteHc+bc44QUsaMsjk47Rhx8fv/+/e660JYG1wgB7u3tLcp0kTpSV84pbrCxduUenQjOhXY8efJkkBMP50O5559/PsiZXsSKy+nTs/0LWulXetgXjl98cbju0tWrb7v8KJ2dc7w//OG237FTZdlY8cFRS3mOZzQ3D4+U2bw55Wuxfbbdu2+4vFw5evSoS7nBGEXYUHhuMi5aPpw5c8aJl42yjDB0CFZm6EBXr151+bnw8ssvu5ROYPXmHLhx6DDhkb25uXmkDCY02D7b7t27XV4u8FmOYR007Chm47sN6vbDDz8EewxAB13HOnHiRJDjuTZZsmSJe811QOTpEOHrw7Uh7/XXX3f7Yb7//nuXPvTQQy5Nx4svvujqRFvSsfk+rtErr7ziBK1YsOoDn3zyiUsNzg3RoT7phBJWrlw5RoDj4BifffaZ9+677wY504tYcTl/PpXd1jbsz3FTDlbS9vab/k1w2+0bTJWwUhCR2tp5/gmnpjdVVXf5I2BqivPFF7Ffkwjz5893afgmZZ7OSJHpgmZi4cKFbrRgo1MjKAgWx+W9y5cvByUnB8KBecvIG+4EWAd0OPj0009dOp149NFHR6xBE79nn33WnYuN2gjO448/7l5//vnnLt2zZ8+I5QNcGxyZfC5sdYC16QMPPODSTOCrACywN954w12jzs5Ol1csuN+4P95///0gJ4VZZtQpE8uWLXNpeFApNWJ7/dWrKd/K8uVjhQRWrhybNziY+YG3n38u3kNxra2t3o4dO9wNy9yXKUX0hi0UCEqYTFOJibCpxWOPPebSMGbK52MVJcXixYtHRlfOAavB6ovomI/DhMGcz2FhMazMjz/+6NJcoWMjXogadXvrrbfyHlRygUECsQxP9T7++GNnoeVrQZcKBTMpws+qRLd8pzqTgRuJh5CYqjByAWYyDle72UVhMEGgXfGzrFixwu0zan/33XcjU5o4MUmSsAVpdSg2DG5YKOa4pY0QuxdeeMHtZ8Kmm1MhjIUiVlyqq1NToYGB8W+fPTs2r7Y2ZcmcPFkwnSoIXBQuMEKDDwCr4u233w7eTU9Sls5ELFq0yKVfffWVS8OYIFZXV7t0OmFWCh2YNn7wwQfdPiY9zl2skLCzMZ2pbyJw3333udSwtgk7jtPBsXFIY73i22BaOVWDCv4eLCi+35yzTz/9tEszYdNNa+NSJFYRFi9OCcaePZXOpwK4MFhattWgMDt23HQ+F94PL1ezioQzN90SdqHBDI3evLZv/hjDOixTJ/PRUPbQoUPudbFgZGeUw9nJSBeui1lfa9ascWmxYSoT9l+FXwNWCqtoTAHwwQDTRToVnzVrBp566imXYkmGBZxrhq8kbspgnSvTyglQt7a2NidoTI/N10IbRutdDGzpnLrjfwlPG9NBXbFyEMd0UK7knnOpq7vlN8SwEwx++2MO2osXZzkhidLaetOVZ+nZyrPh4G1omJuVX6ZQ2KoQlottWDDA1CiMdVhWY6qqqlxZPkuHCI+4xcCei2C0C9eFm4xRuNhTCzoBnR2RsPqwRZ+9eOSRR9wqGuJoD7hZXZmemDUDvM/qE0LENbFjmn8CEWA/DPucP+0Qt7Qbhqd4OQ7Wih2bgYLPHj58OCgVj5WPDkz5YHVHWKgXzu5ssDZ+8sknXToRWEQcl/Objkw4l9m794YTElsdYtl4586b3oIF4x/P99vQlcfvUl9/K8hNfaav77eRqVMxsKXHMOwzUkY7KPuMmiYkdCZWbNavX+/dc889Lq9YUBdu7HDdqRedcSp+yEbH4LmdsMjyOurERjyYcq5evTrISX0WsSE/usrDUna4zQHrhzwbBKLY0u4777zj0jh4cA8hjD7PQrvShgwgfEccJlpc/+g9ki+2egYTnV8YrJEDBw649slU3gaAcFtOJ/QH3aIkwCJl4CDNppNOBgYejsnAwrMyhQTrAsHCgslmkMCCxX+FsGczhZrOTC8vbBkQfjQ/m62QZngUe+w92206w9SJDkpa6DYzR/ratWtdWkhYfoYnnnjCpenA94ewsJRe6sICEhdRMjDyY7mwclRIBy0P9zE1M59RoaCuTMeYImZ6tgULZ8GCBc5iyVS2VNC0SIgCE7UC8fWUi2BMBlkuQhQYnKxgD9HNRGEBWS5CiESQ5SKESASJixAiESQuQohEkLgIIRJB4iKESASJixAiESQuQohEkLgIIRJB4iKESASJixAiESQuQohEkLgIIRJB4iKESASJSw4QcL8QAfOFKGfKTlyItUTkAf6ojNAmiIBFI9i0abwgUI6QKE1Nc12ZVavudOLBZ8NQjjApHIOA+wTmt+OyRcXGvjeOuPJAfn9/xUid7NjULVyfnp7Ud9tr6mzl2M8HAsXzZ0fRP7Pmn98IY0EEhVz/BY6/3eQYcXBMvteiIIjSp2wtl/7+2V5Ly1wnAhNBH+nomONCohDvGojLhHjw2XCHPnas0oVJiQvEX0guX64YqZNB3Sxmd5i+vtkuHrfFkqIc+/kIjAVzJzxHOJQHYVH5F/t8wqPGhTg1LI8/WBLlQdmKy4EDld6WLcO+QPzii8h1b3Dwut9hxsZcOnz4Du/SpQr/xv7VlbGNfTrsBx+MdtLm5uGR94GwKeHPFCpkbW/vbO/++3/3LbBUvdn6+3/1O3RQIER3d6UvML+NlOvt/c3l5xv90oK5Exwe+De1Xbt2jQvbMVn4h33Eg/+JjTLT4ijPBMpWXJYsue0EwUZ8OmdNzdjR/8yZCicidXWpaYVt7MOJEylrpth0dt4cU9eJ4j6tW3fLr+tonKiGhtFgdvlgwdwJtsU/0iM2xFPC8sgXwoNw3HCIVV6Tl20cZVEalK24PPxw5n/vtKnQRMSFrk2ahQt/j7VS4li0aLzoFCqWGxYEcXz493riN1to1Dj+9cG/vb/9Y/+47T///V9QYhQL6WohN2CycZRFaVC24pIt0elNdJvJEEweCCifKZRqtmAVEX/oyJEjfvumHMOTiaMsSocZLS4ICw7fHBc/coLVoFIgHB4VyyVdMPe/bviL98+/bx23/flPfwxKjIUY3ebYJdohr7ONoyxKhxktLvgogNWZ8MrQ0NAsJwIsa0/E2bMVrpwR7XfV1alpGUvK9h7HO3Qo2dWmQkBEw40bN45EOGR5OJtg7tlCeFMsFaZGxJOGQodoFVPPjBYXnKEE28cBWls7b8ShW1Mzzzl1L1yIbx4sHvwxlLPPdHWNfW5lzZqUcLGkXFWVKrN8+Z3eihW3ndN1uoJ10tbW5lZ1WltbXV42wdwnC8HlESzCl+Isnu7hZMXkmdHiAu3tN91ybrjD87q7+4bX2BgvAl1dN/wOMbqsXV9/y1u2bKxzlRUelrTtuEuX3vb277/hrV8/XDCnaxJ0dXW5aUr0eZbm5mYX8pTnX8IrPbmCpcLSM9+lZ1vKEwVFE1MGT+vizzl69GiQI8qJGW+5iKmB6RVWyzPPPBPkiHJD4iKKDg5jplewdu1al4ryQ+IiigY/XMSPwwN6WC08pMdzL6I8kbiIojF//nyX4shFWPiRpChf5NAVQiSCLBchRCJIXIQQiSBxEUIkgsRFCJEIEhchRCJIXIQQiSBxEUIkgsRFCJEIEhchRCJIXIQQiSBxEUIkgsRFCJEIEhchRCJIXIQQiSBxEUIkgsRFCJEIEhchRCJIXIQQiSBxEUIkgsRFCJEIEhchRCJIXIQQiSBxEUIkgsRFCJEIEhchRAJ43v8BlDnNiqFmqMkAAAAASUVORK5CYII=",
+          "type": "img"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2723543550",
+          "type": "p"
+        }
+      ],
+      "id": "2855668195"
+    }
+  },
+  "id": "1931",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1661",
+    "1919"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

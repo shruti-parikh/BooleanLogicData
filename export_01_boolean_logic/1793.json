@@ -1,0 +1,100 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "\"Pretest is a way to find out concepts that you may be confused about. Getting a low score in the pretest is an oppurtunity to learn something new. Answer all the questions given below to the best of your ability.\""
+                  }
+                ],
+                "id": "1582406811",
+                "type": "p"
+              }
+            ],
+            "type": "blockquote"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1675925553",
+            "type": "p"
+          }
+        ],
+        "id": "1067604353",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "count": 6,
+        "id": "2135418085",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  1231
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1919,
+                  1661
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      },
+      {
+        "count": 15,
+        "id": "4163424625",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1919,
+                  1661
+                ]
+              },
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  1232
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      }
+    ]
+  },
+  "id": "1793",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Pre-Test",
+  "type": "Page",
+  "unresolvedReferences": []
+}

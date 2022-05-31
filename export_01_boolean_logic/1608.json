@@ -1,0 +1,201 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Given x = 10, solve the equation and apply given logical operation to obtain the result."
+                    }
+                  ],
+                  "id": "3940362074",
+                  "type": "p"
+                }
+              ],
+              "id": "988169364"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Refer to and and or truth tables to solve the equation."
+                    }
+                  ],
+                  "id": "2465697940",
+                  "type": "p"
+                }
+              ],
+              "id": "4071821268"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Given, x = 10 , ((x > 5) or (x**2 > 50)) and (x == 20)"
+                    }
+                  ],
+                  "id": "2123048747",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "(True or True) and False"
+                    }
+                  ],
+                  "id": "2123048747",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "True and False"
+                    }
+                  ],
+                  "id": "2123048747",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "ANS =  "
+                    },
+                    {
+                      "strong": true,
+                      "text": "False"
+                    }
+                  ],
+                  "id": "2123048747",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2123048747",
+                  "type": "p"
+                }
+              ],
+              "id": "223509109"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep it up !!!"
+                      }
+                    ],
+                    "id": "2351304593",
+                    "type": "p"
+                  }
+                ],
+                "id": "1885459124"
+              },
+              "id": "1076869490",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep solving !! check for the hints. If you are still facing difficulty solving. Re-read the "
+                      },
+                      {
+                        "code": true,
+                        "text": "and "
+                      },
+                      {
+                        "text": "and "
+                      },
+                      {
+                        "code": true,
+                        "text": "or "
+                      },
+                      {
+                        "text": "operations from the the content."
+                      }
+                    ],
+                    "id": "1616280020",
+                    "type": "p"
+                  }
+                ],
+                "id": "2914221206"
+              },
+              "id": "1075450193",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Guess the ResultIf x = 10, what will the following expressions evaluate to?((x > 5) or (x**2 > 50)) and (x == 20)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Guess the Result"
+            }
+          ],
+          "id": "4062433556",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "If x = 10, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "4062433556",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "((x > 5) or (x**2 > 50)) and (x == 20)"
+            }
+          ],
+          "id": "4062433556",
+          "type": "p"
+        }
+      ],
+      "id": "661713362"
+    }
+  },
+  "id": "1608",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1663",
+    "1667"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

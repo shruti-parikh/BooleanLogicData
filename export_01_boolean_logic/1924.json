@@ -1,0 +1,658 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for graded assignment."
+                    }
+                  ],
+                  "id": "3622770790",
+                  "type": "p"
+                }
+              ],
+              "id": "966727409"
+            }
+          ],
+          "id": "1381319998",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct!!"
+                      }
+                    ],
+                    "id": "4263185922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "4263185922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "Explanation:"
+                      }
+                    ],
+                    "id": "4263185922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "(10 <  =  5) and (\"ac\" == \"Ac\"). Let us consider the expression inside the parenthesis individually."
+                      }
+                    ],
+                    "id": "4263185922",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "(10 <  =  5) --> False"
+                          }
+                        ],
+                        "id": "4263185922",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "(\"ac\" == \"Ac\") --> False ( Lower case letters cannot be equal to upper case letters)"
+                          }
+                        ],
+                        "id": "4263185922",
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "now out equation is False "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "and"
+                          }
+                        ],
+                        "content": [
+                          {
+                            "children": [
+                              {
+                                "text": "The and operation takes two Boolean values,  it evaluates to False if"
+                              }
+                            ],
+                            "id": "3144638667",
+                            "type": "p"
+                          },
+                          {
+                            "children": [
+                              {
+                                "text": "either value is False."
+                              }
+                            ],
+                            "id": "3144638667",
+                            "type": "p"
+                          }
+                        ],
+                        "id": "4184600200",
+                        "trigger": "hover",
+                        "type": "popup"
+                      },
+                      {
+                        "text": " False, Which results as  "
+                      },
+                      {
+                        "code": true,
+                        "text": "False"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ],
+                    "id": "525201637",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "2735166950",
+                    "type": "p"
+                  }
+                ],
+                "id": "3296502512"
+              },
+              "id": "1582512922",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Grr! Incorrect answer. Lets learn about the logical operators in the upcoming module."
+                      }
+                    ],
+                    "id": "1007813174",
+                    "type": "p"
+                  }
+                ],
+                "id": "2264795053"
+              },
+              "id": "3694236398",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for graded assignment."
+                    }
+                  ],
+                  "id": "1132759242",
+                  "type": "p"
+                }
+              ],
+              "id": "4076793184"
+            }
+          ],
+          "id": "3068418433",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent !!"
+                      }
+                    ],
+                    "id": "865920553",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "865920553",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "Explanation: "
+                      },
+                      {
+                        "text": "(10 > 10) or (0 == 1). Let us consider the expression inside the parenthesis individually."
+                      }
+                    ],
+                    "id": "865920553",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "(10 > 10) --> False ( 10 is equal to 10)"
+                          }
+                        ],
+                        "id": "4263185922",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "(0 == 1) --> False "
+                          }
+                        ],
+                        "id": "4263185922",
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "now out equation is False "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "or "
+                          }
+                        ],
+                        "content": [
+                          {
+                            "children": [
+                              {
+                                "text": "The or operation takes two Boolean values, it only evaluates to False if both values are False."
+                              }
+                            ],
+                            "id": "962030233",
+                            "type": "p"
+                          }
+                        ],
+                        "id": "3688946411",
+                        "trigger": "hover",
+                        "type": "popup"
+                      },
+                      {
+                        "text": "False, Which results as  "
+                      },
+                      {
+                        "code": true,
+                        "text": "False"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ],
+                    "id": "525201637",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "525201637",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "525201637",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "865920553",
+                    "type": "p"
+                  }
+                ],
+                "id": "1293209082"
+              },
+              "id": "4056763240",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oops! wrong answer. Lets learn about the logical operators in the upcoming module."
+                      }
+                    ],
+                    "id": "3962311516",
+                    "type": "p"
+                  }
+                ],
+                "id": "2163571378"
+              },
+              "id": "3663412354",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for graded assignment."
+                    }
+                  ],
+                  "id": "3957981182",
+                  "type": "p"
+                }
+              ],
+              "id": "1509097195"
+            }
+          ],
+          "id": "3771029234",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Impressive !!"
+                      }
+                    ],
+                    "id": "3673715267",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "3673715267",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Explanation : "
+                      }
+                    ],
+                    "id": "3673715267",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "not (True "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "or "
+                          }
+                        ],
+                        "content": [
+                          {
+                            "children": [
+                              {
+                                "text": "The and operation takes two Boolean values,  it only evaluates to False if both values are False"
+                              }
+                            ],
+                            "id": "3253624196",
+                            "type": "p"
+                          }
+                        ],
+                        "id": "1175556201",
+                        "trigger": "hover",
+                        "type": "popup"
+                      },
+                      {
+                        "text": "False) -- > "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "not "
+                          }
+                        ],
+                        "content": [
+                          {
+                            "children": [
+                              {
+                                "text": "y, the not operation takes a single Boolean value and switches it to the opposite value"
+                              }
+                            ],
+                            "id": "3196201059",
+                            "type": "p"
+                          }
+                        ],
+                        "id": "875537859",
+                        "trigger": "hover",
+                        "type": "popup"
+                      },
+                      {
+                        "text": "(True) --> "
+                      },
+                      {
+                        "strong": true,
+                        "text": "False"
+                      }
+                    ],
+                    "id": "3673715267",
+                    "type": "p"
+                  }
+                ],
+                "id": "1329079808"
+              },
+              "id": "1508314368",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oops! You answered it wrong. "
+                      }
+                    ],
+                    "id": "2095174431",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Lets learn about the logical operators in the upcoming module."
+                      }
+                    ],
+                    "id": "2095174431",
+                    "type": "p"
+                  }
+                ],
+                "id": "2881370951"
+              },
+              "id": "518313953",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Evaluating Boolean Expressions (For each of the following Boolean expressions, determine whether it evaluates to True, False, or an error)(10 <  =  5) and (\"ac\" == \"Ac\")  =  (10 > 10) or (0 == 1)  ﻿= not (True or False)  = ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "952550107",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "1762142521",
+        "inputType": "text",
+        "partId": "1381319998"
+      },
+      {
+        "id": "1555413844",
+        "inputType": "text",
+        "partId": "3068418433"
+      },
+      {
+        "id": "4269003513",
+        "inputType": "text",
+        "partId": "3771029234"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Evaluating Boolean Expressions (For each of the following Boolean expressions, determine whether it evaluates to True, False, or an error)"
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "(10 <  =  5) and (\"ac\" == \"Ac\")  =  "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1762142521",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "(10 > 10) or (0 == 1)  ﻿= "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1555413844",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "not (True or False)  = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "4269003513",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2041619016",
+          "type": "p"
+        }
+      ],
+      "id": "3346227576"
+    }
+  },
+  "id": "1924",
+  "objectives": {
+    "1381319998": [
+      "1231"
+    ],
+    "3068418433": [
+      "1231"
+    ],
+    "3771029234": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1919",
+    "1661"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

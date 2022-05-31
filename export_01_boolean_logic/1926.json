@@ -1,0 +1,220 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not enabled for graded tests."
+                    }
+                  ],
+                  "id": "169554097",
+                  "type": "p"
+                }
+              ],
+              "id": "267082867"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1556582664",
+                  "type": "p"
+                }
+              ],
+              "id": "2572611286"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "739213323",
+                  "type": "p"
+                }
+              ],
+              "id": "4201585392"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You got it Correct!"
+                      }
+                    ],
+                    "id": "127570578",
+                    "type": "p"
+                  }
+                ],
+                "id": "834260263"
+              },
+              "id": "3279109247",
+              "rule": "input like {2705248036}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Gear up !!"
+                      }
+                    ],
+                    "id": "2129908032",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Refer to the types of error in Booleans and Errors unit. (Python Errors Practice page)"
+                      }
+                    ],
+                    "id": "2129908032",
+                    "type": "p"
+                  }
+                ],
+                "id": "1447705339"
+              },
+              "id": "3974992004",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file.S = \"I'm learning \" + Python Error",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2095862649",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Syntax Error"
+              }
+            ],
+            "id": "3560068016",
+            "type": "p"
+          }
+        ],
+        "id": "1652580742"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Runtime Error"
+              }
+            ],
+            "id": "2173998927",
+            "type": "p"
+          }
+        ],
+        "id": "2705248036"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "No Error"
+              }
+            ],
+            "id": "3506253797",
+            "type": "p"
+          }
+        ],
+        "id": "94653137"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Logical Error"
+              }
+            ],
+            "id": "2581609069",
+            "type": "p"
+          }
+        ],
+        "id": "3856154772"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file."
+            }
+          ],
+          "id": "402010033",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "402010033",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "S = \"I'm learning \" + Python Error"
+            }
+          ],
+          "id": "402010033",
+          "type": "p"
+        }
+      ],
+      "id": "514530980"
+    }
+  },
+  "id": "1926",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1919",
+    "1662"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

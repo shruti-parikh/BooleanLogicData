@@ -1,0 +1,182 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4064709415",
+                  "type": "p"
+                }
+              ],
+              "id": "2829515536"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1085800649",
+                  "type": "p"
+                }
+              ],
+              "id": "4093644524"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1165707162",
+                  "type": "p"
+                }
+              ],
+              "id": "3757335242"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done !!"
+                      }
+                    ],
+                    "id": "3554527671",
+                    "type": "p"
+                  }
+                ],
+                "id": "11856370"
+              },
+              "id": "3735975633",
+              "rule": "input like {2141429110}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oops !! Calculate it again ."
+                      }
+                    ],
+                    "id": "3689639027",
+                    "type": "p"
+                  }
+                ],
+                "id": "930998979"
+              },
+              "id": "1253307258",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "x = 2 ,  y = 10check if x**y <1000",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1938930818",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "True"
+              }
+            ],
+            "id": "1523068274",
+            "type": "p"
+          }
+        ],
+        "id": "2357911426"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "False"
+              }
+            ],
+            "id": "3416239152",
+            "type": "p"
+          }
+        ],
+        "id": "2141429110"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "x = 2 ,  y = 10"
+            }
+          ],
+          "id": "1774501206",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "check if x**y <1000"
+            }
+          ],
+          "id": "1774501206",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1774501206",
+          "type": "p"
+        }
+      ],
+      "id": "3874193760"
+    }
+  },
+  "id": "1749",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1661"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

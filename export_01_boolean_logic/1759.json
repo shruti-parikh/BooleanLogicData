@@ -1,0 +1,129 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3135632868",
+                  "type": "p"
+                }
+              ],
+              "id": "4170370659"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "654998776",
+                  "type": "p"
+                }
+              ],
+              "id": "734322517"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "499098915",
+                  "type": "p"
+                }
+              ],
+              "id": "3131053803"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "92836659",
+                    "type": "p"
+                  }
+                ],
+                "id": "1311980192"
+              },
+              "id": "3400707290",
+              "rule": "input contains {assert}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3146956323",
+                    "type": "p"
+                  }
+                ],
+                "id": "3330372549"
+              },
+              "id": "1986485229",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "We use which statements in order to check for logical errors ",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "We use which statements in order to check for logical errors "
+            }
+          ],
+          "id": "3459271273",
+          "type": "p"
+        }
+      ],
+      "id": "953259759"
+    }
+  },
+  "id": "1759",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1662",
+    "1663",
+    "1802"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

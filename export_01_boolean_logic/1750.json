@@ -1,0 +1,145 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2267216028",
+                  "type": "p"
+                }
+              ],
+              "id": "3941727330"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1655193242",
+                  "type": "p"
+                }
+              ],
+              "id": "3806250721"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3835427969",
+                  "type": "p"
+                }
+              ],
+              "id": "3058171810"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "3007374099",
+                    "type": "p"
+                  }
+                ],
+                "id": "3442679262"
+              },
+              "id": "552678537",
+              "rule": "input contains {True}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1224100855",
+                    "type": "p"
+                  }
+                ],
+                "id": "1573733753"
+              },
+              "id": "1121629624",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Evaluate the following :(True and True) or ( not (False or True))",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Evaluate the following :"
+            }
+          ],
+          "id": "2040509050",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "(True and True) or ( not (False or True))"
+            }
+          ],
+          "id": "2040509050",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2040509050",
+          "type": "p"
+        }
+      ],
+      "id": "3627070472"
+    }
+  },
+  "id": "1750",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1662"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

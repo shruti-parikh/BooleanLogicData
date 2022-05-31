@@ -1,0 +1,155 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for graded assignment."
+                    }
+                  ],
+                  "id": "2376160556",
+                  "type": "p"
+                }
+              ],
+              "id": "1072690950"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1624164282",
+                  "type": "p"
+                }
+              ],
+              "id": "3146560574"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2147226205",
+                  "type": "p"
+                }
+              ],
+              "id": "2058908020"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent !!!"
+                      }
+                    ],
+                    "id": "4062031853",
+                    "type": "p"
+                  }
+                ],
+                "id": "2047490312"
+              },
+              "id": "2374300001",
+              "rule": "input contains {False}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can do better. "
+                      }
+                    ],
+                    "id": "689286189",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Refer to the Logical operations in the Booleans and Errors unit."
+                      }
+                    ],
+                    "id": "689286189",
+                    "type": "p"
+                  }
+                ],
+                "id": "1169874489"
+              },
+              "id": "78134615",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Guess the ResultIf x = 100, what will the following expressions evaluate to?((x > 100) or (x**2 > 500)) and (x == 100)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Guess the Result"
+            }
+          ],
+          "id": "4104911290",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "If x = 100, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "4104911290",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "((x > 100) or (x**2 > 500)) and (x == 100)"
+            }
+          ],
+          "id": "4104911290",
+          "type": "p"
+        }
+      ],
+      "id": "4197376440"
+    }
+  },
+  "id": "1923",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1919",
+    "1662"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

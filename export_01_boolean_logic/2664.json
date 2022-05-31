@@ -1,0 +1,204 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Project description"
+              }
+            ],
+            "id": "3029068409",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "2730073001",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "You have entered a Boolean land, a land full of logics. You will be provided with missions and a few mystery box to cross every level. Are you ready to explore ? "
+              }
+            ],
+            "id": "3029068409",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Mission 1:"
+              }
+            ],
+            "id": "3029068409",
+            "type": "h2"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "In order to move forward with your exploration you will have to fix a broken gate. You have to build a gate that performs "
+              },
+              {
+                "code": true,
+                "text": "or "
+              },
+              {
+                "text": "logical operations in order to open and close that gate doors. "
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Not that easy. you will be given a mystery box using which you have to build the gate."
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Mystery box = "
+              },
+              {
+                "code": true,
+                "text": "and "
+              },
+              {
+                "text": ", "
+              },
+              {
+                "code": true,
+                "text": "not"
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Note : you can use the weapons from mystery box only 5 times."
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Mission 2:"
+              }
+            ],
+            "id": "1359741269",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Now that you have built a gate, In order to move forward with your exploration, you will have to cross a lake (you don't have an option to swim) . There is a boat nearby but the problem is, you can row this boat using "
+              },
+              {
+                "code": true,
+                "text": "and "
+              },
+              {
+                "text": "operator. you will be given a mystery box using which you have to build the gate. All the best!!"
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Mystery box = "
+              },
+              {
+                "code": true,
+                "text": "or"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "code": true,
+                "text": "not"
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Note : you can use the weapons from mystery box only 5 times."
+              }
+            ],
+            "id": "1359741269",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "3029068409",
+            "type": "p"
+          }
+        ],
+        "id": "2373822916",
+        "purpose": "none",
+        "type": "content"
+      }
+    ]
+  },
+  "id": "2664",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Bonus",
+  "type": "Page",
+  "unresolvedReferences": []
+}

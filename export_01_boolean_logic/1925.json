@@ -1,0 +1,452 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not enabled for graded tests."
+                    }
+                  ],
+                  "id": "1875412812",
+                  "type": "p"
+                }
+              ],
+              "id": "3369114397"
+            }
+          ],
+          "id": "3874781677",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done !!"
+                      }
+                    ],
+                    "id": "1220945405",
+                    "type": "p"
+                  }
+                ],
+                "id": "1483322557"
+              },
+              "id": "3014908329",
+              "rule": "input like {^Syntax Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Don't loose the spirit !!"
+                      }
+                    ],
+                    "id": "2863444429",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Refer to the types of error in Booleans and Errors unit. (Python Errors Practice page)"
+                      }
+                    ],
+                    "id": "2863444429",
+                    "type": "p"
+                  }
+                ],
+                "id": "1304651730"
+              },
+              "id": "3612816943",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry ! hints are not enables for graded assignments."
+                    }
+                  ],
+                  "id": "2576219497",
+                  "type": "p"
+                }
+              ],
+              "id": "2541872990"
+            }
+          ],
+          "id": "2840189813",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent!!"
+                      }
+                    ],
+                    "id": "2463145204",
+                    "type": "p"
+                  }
+                ],
+                "id": "1353504259"
+              },
+              "id": "3696072103",
+              "rule": "input like {^Runtime Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep learning !!"
+                      }
+                    ],
+                    "id": "4172122187",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Refer to the types of error in Booleans and Errors unit. (Python Errors Practice page)"
+                      }
+                    ],
+                    "id": "2863444429",
+                    "type": "p"
+                  }
+                ],
+                "id": "3081115109"
+              },
+              "id": "584062057",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry ! hints are not enables for graded assignments."
+                    }
+                  ],
+                  "id": "1167970548",
+                  "type": "p"
+                }
+              ],
+              "id": "259301960"
+            }
+          ],
+          "id": "1228458595",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep it up!"
+                      }
+                    ],
+                    "id": "3367704883",
+                    "type": "p"
+                  }
+                ],
+                "id": "3916155478"
+              },
+              "id": "1482062950",
+              "rule": "input like {^Syntax Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Don't loose the spirit !!"
+                      }
+                    ],
+                    "id": "471257603",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Refer to the types of error in Booleans and Errors unit. (Python Errors Practice page)"
+                      }
+                    ],
+                    "id": "2863444429",
+                    "type": "p"
+                  }
+                ],
+                "id": "2771875159"
+              },
+              "id": "2626304099",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry ! hints are not enables for graded assignments."
+                    }
+                  ],
+                  "id": "992515780",
+                  "type": "p"
+                }
+              ],
+              "id": "2286514778"
+            }
+          ],
+          "id": "2533543394",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent."
+                      }
+                    ],
+                    "id": "1010744255",
+                    "type": "p"
+                  }
+                ],
+                "id": "2968639911"
+              },
+              "id": "8010996",
+              "rule": "input like {^Runtime Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oops incorrect answer !"
+                      }
+                    ],
+                    "id": "2330027594",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about the types of error in Booleans and Errors unit. ( Python Errors Practice page)"
+                      }
+                    ],
+                    "id": "2330027594",
+                    "type": "p"
+                  }
+                ],
+                "id": "995647395"
+              },
+              "id": "942402765",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following lines of code, select whether it causes a Syntax Error, Runtime Error, or No Error. You are guaranteed that no code has a logical error. print(\"to the course) print('My name is\", Anna) x + y = 20 x = y == 20  ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1286573450",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "1513487738",
+        "inputType": "text",
+        "partId": "3874781677"
+      },
+      {
+        "id": "731642294",
+        "inputType": "text",
+        "partId": "2840189813"
+      },
+      {
+        "id": "1273589281",
+        "inputType": "text",
+        "partId": "1228458595"
+      },
+      {
+        "id": "1360726268",
+        "inputType": "text",
+        "partId": "2533543394"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following lines of code, select whether it causes a Syntax Error, Runtime Error, or No Error. You are guaranteed that no code has a logical error. "
+            }
+          ],
+          "id": "2757577374",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "print(\"to the course) "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1513487738",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2757577374",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "print('My name is\", Anna) "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "731642294",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2757577374",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "x + y = 20 "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1273589281",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2757577374",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "x = y == 20  "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1360726268",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2757577374",
+              "type": "li"
+            }
+          ],
+          "type": "ol"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2757577374",
+          "type": "p"
+        }
+      ],
+      "id": "2837324957"
+    }
+  },
+  "id": "1925",
+  "objectives": {
+    "1228458595": [
+      "1232"
+    ],
+    "2533543394": [
+      "1232"
+    ],
+    "2840189813": [
+      "1232"
+    ],
+    "3874781677": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1919",
+    "1662"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,84 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "2558",
+              "type": "item"
+            },
+            {
+              "children": [],
+              "idref": "1793",
+              "type": "item"
+            }
+          ],
+          "id": "1226",
+          "tags": [],
+          "title": "Introduction",
+          "type": "container"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "1246",
+              "type": "item"
+            },
+            {
+              "children": [],
+              "idref": "1247",
+              "type": "item"
+            }
+          ],
+          "id": "1227",
+          "tags": [],
+          "title": "Learning by doing",
+          "type": "container"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "1795",
+              "type": "item"
+            }
+          ],
+          "id": "1228",
+          "tags": [],
+          "title": "Post-Test",
+          "type": "container"
+        }
+      ],
+      "id": "1224",
+      "tags": [],
+      "title": "Booleans and Errors",
+      "type": "container"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "idref": "2564",
+          "type": "item"
+        },
+        {
+          "children": [],
+          "idref": "2664",
+          "type": "item"
+        }
+      ],
+      "id": "1225",
+      "tags": [],
+      "title": "[Project]Convert rules to Boolean expressions",
+      "type": "container"
+    }
+  ],
+  "id": "",
+  "originalFile": "",
+  "tags": [],
+  "title": "",
+  "type": "Hierarchy"
+}

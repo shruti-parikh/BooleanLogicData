@@ -1,0 +1,445 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Will the following line of code throw"
+                    },
+                    {
+                      "strong": true,
+                      "text": " Syntax Error, Runtime Error, or No Error"
+                    },
+                    {
+                      "text": " when executed?"
+                    }
+                  ],
+                  "id": "1743153183",
+                  "type": "p"
+                }
+              ],
+              "id": "2173151848"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Recollect the definitions of all the Python errors and try to relate with the problem."
+                    }
+                  ],
+                  "id": "1378018412",
+                  "type": "p"
+                }
+              ],
+              "id": "1936729754"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "If we look at the second parenthesis. It says \"2+2 =\" + 4.  \"2+2 =\"(str) + 4(int). Integer cannot be added to string ( data types should be same to undergo operations) therefore it throws an error."
+                    }
+                  ],
+                  "id": "1779415428",
+                  "type": "p"
+                }
+              ],
+              "id": "2262553994"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Bravo!! you did it right. are you eager to solve the next question?"
+                      }
+                    ],
+                    "id": "2473685199",
+                    "type": "p"
+                  }
+                ],
+                "id": "3703437330"
+              },
+              "id": "3611456797",
+              "rule": "input like {^Runtime Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oh no!!  Wrong answer."
+                      }
+                    ],
+                    "id": "1348113819",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Kindly, Refer to the Runtime Errors from the content to understand such errors better."
+                      }
+                    ],
+                    "id": "2484113021",
+                    "type": "p"
+                  }
+                ],
+                "id": "2356174669"
+              },
+              "id": "233151895",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Will the following line of code throw Syntax Error, Runtime Error, or No Error when executed?"
+                    }
+                  ],
+                  "id": "34609591",
+                  "type": "p"
+                }
+              ],
+              "id": "3414622366"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Recollect the definitions of all the Python errors and try to relate with the problem."
+                    }
+                  ],
+                  "id": "1097166423",
+                  "type": "p"
+                }
+              ],
+              "id": "1554202907"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "This statement seems to be correct in math, but a value(5) cannot be assigned to an expression(x-y), Hence it throws a syntax error."
+                    }
+                  ],
+                  "id": "1882083640",
+                  "type": "p"
+                }
+              ],
+              "id": "2489995716"
+            }
+          ],
+          "id": "4282318161",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Phew !! are you the smart one ? "
+                      }
+                    ],
+                    "id": "1072564882",
+                    "type": "p"
+                  }
+                ],
+                "id": "1374066603"
+              },
+              "id": "3472279030",
+              "rule": "input like {^Syntax Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah!! incorrect answer."
+                      }
+                    ],
+                    "id": "1273125511",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Kindly, Refer to the Syntax Errors from the content to understand such errors better."
+                      }
+                    ],
+                    "id": "2484113021",
+                    "type": "p"
+                  }
+                ],
+                "id": "4129135260"
+              },
+              "id": "811993686",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Will the following line of code throw Syntax Error, Runtime Error, or No Error when executed?"
+                    }
+                  ],
+                  "id": "831121679",
+                  "type": "p"
+                }
+              ],
+              "id": "2996576199"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Read the question carefully and analyse what type of error it can be."
+                    }
+                  ],
+                  "id": "275213625",
+                  "type": "p"
+                }
+              ],
+              "id": "673968324"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "According to precedence of operators, \"==\" will be executed first, hence 1==2 will result in False, and x will store this truth value. Hence this line doesn't throw any error."
+                    }
+                  ],
+                  "id": "99141545",
+                  "type": "p"
+                }
+              ],
+              "id": "1057868562"
+            }
+          ],
+          "id": "158792684",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Bravo !! you are really smart. "
+                      }
+                    ],
+                    "id": "1878496987",
+                    "type": "p"
+                  }
+                ],
+                "id": "4166065509"
+              },
+              "id": "852418003",
+              "rule": "input like {^No Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah!! incorrect answer."
+                      }
+                    ],
+                    "id": "3945030899",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Kindly, Refer to the entire content to understand much better about the errors."
+                      }
+                    ],
+                    "id": "3945030899",
+                    "type": "p"
+                  }
+                ],
+                "id": "2097827988"
+              },
+              "id": "298534636",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following lines of code, select whether it causes a Syntax Error, Runtime Error, or No Error. You are guaranteed that no code has a logical error. print(\"2+2=\" + 4) .x - y = 5x = 1 == 2",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2392057499",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2892664613",
+        "inputType": "text",
+        "partId": "1"
+      },
+      {
+        "id": "3745130379",
+        "inputType": "text",
+        "partId": "4282318161"
+      },
+      {
+        "id": "4251661981",
+        "inputType": "text",
+        "partId": "158792684"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following lines of code, select whether it causes a Syntax Error, Runtime Error, or No Error. You are guaranteed that no code has a logical error. "
+            }
+          ],
+          "id": "1727284133",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "print(\"2+2=\" + 4) "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2892664613",
+                  "type": "input_ref"
+                },
+                {
+                  "text": "."
+                }
+              ],
+              "id": "1727284133",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "x - y = 5"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3745130379",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1727284133",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "x = 1 == 2"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4251661981",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1727284133",
+              "type": "li"
+            }
+          ],
+          "type": "ol"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3617078610",
+          "type": "p"
+        }
+      ],
+      "id": "1971601864"
+    }
+  },
+  "id": "2642",
+  "objectives": {
+    "1": [
+      "1232"
+    ],
+    "158792684": [
+      "1232"
+    ],
+    "4282318161": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1663",
+    "1667"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

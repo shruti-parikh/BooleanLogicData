@@ -1,0 +1,387 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Refer to the truth table and evaluate the  Boolean Expressions "
+                    }
+                  ],
+                  "id": "4091500791",
+                  "type": "p"
+                }
+              ],
+              "id": "518416375"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "First evaluate the expressions in the parenthesis. You will obtain a Boolean expression. solve it using the "
+                    },
+                    {
+                      "code": true,
+                      "text": "or "
+                    },
+                    {
+                      "text": "operator truth table."
+                    }
+                  ],
+                  "id": "3959477401",
+                  "type": "p"
+                }
+              ],
+              "id": "1728297982"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "(2 <= 5) and (4 + \"a\" == \"4a\")"
+                    }
+                  ],
+                  "id": "1831676196",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "If we look at the second parenthesis. It says 4 + 'a'.  "
+                    }
+                  ],
+                  "id": "1831676196",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "4(int) + a(str). integer cannot be added to string ( data types should be same to undergo operations) therefore it throws an error."
+                    }
+                  ],
+                  "id": "1831676196",
+                  "type": "p"
+                }
+              ],
+              "id": "3000201140"
+            }
+          ],
+          "id": "4259578150",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You got it right !"
+                      }
+                    ],
+                    "id": "1207145801",
+                    "type": "p"
+                  }
+                ],
+                "id": "4182621425"
+              },
+              "id": "1202758259",
+              "rule": "input like {^Error$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Something is wrong with the answer."
+                      }
+                    ],
+                    "id": "3228079189",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "You should have focused on the datatypes."
+                      }
+                    ],
+                    "id": "3228079189",
+                    "type": "p"
+                  }
+                ],
+                "id": "2550183867"
+              },
+              "id": "3389998998",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Refer to the truth table and evaluate the  Boolean Expressions "
+                    }
+                  ],
+                  "id": "3578412853",
+                  "type": "p"
+                }
+              ],
+              "id": "2848574759"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "First evaluate the expressions in the parenthesis. You will obtain a Boolean expression. solve it using the "
+                    },
+                    {
+                      "code": true,
+                      "text": "or "
+                    },
+                    {
+                      "text": "operator truth table."
+                    }
+                  ],
+                  "id": "1560261853",
+                  "type": "p"
+                }
+              ],
+              "id": "1423493927"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "(\"a\" == \"A\") or (0 > 1)"
+                    }
+                  ],
+                  "id": "884695695",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Consider the equation inside the parenthesis first."
+                    }
+                  ],
+                  "id": "884695695",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "'a' == 'A' -> ( lower case cannot be equal to upper case letters) -> False"
+                    }
+                  ],
+                  "id": "884695695",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "0>1 -> False"
+                    }
+                  ],
+                  "id": "884695695",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "We get, False or False --> False"
+                    }
+                  ],
+                  "id": "884695695",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Ans = False"
+                    }
+                  ],
+                  "id": "884695695",
+                  "type": "p"
+                }
+              ],
+              "id": "2236673378"
+            }
+          ],
+          "id": "488835582",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done !! You are doing well."
+                      }
+                    ],
+                    "id": "2655666105",
+                    "type": "p"
+                  }
+                ],
+                "id": "685282035"
+              },
+              "id": "4226631008",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect. Read the question carefully. Refer to the "
+                      },
+                      {
+                        "code": true,
+                        "text": "or "
+                      },
+                      {
+                        "text": "operator from the content."
+                      }
+                    ],
+                    "id": "1942939880",
+                    "type": "p"
+                  }
+                ],
+                "id": "2075845101"
+              },
+              "id": "1585007525",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following Boolean expressions, determine whether it evaluates to True, False, or an Error(2 <= 5) and (4 + \"a\" == \"4a\")  (\"a\" == \"A\") or (0 > 1)  ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2253117941",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2021876063",
+        "inputType": "text",
+        "partId": "4259578150"
+      },
+      {
+        "id": "1377192555",
+        "inputType": "text",
+        "partId": "488835582"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following Boolean expressions, determine whether it evaluates to True, False, or an Error"
+            }
+          ],
+          "id": "191441848",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "(2 <= 5) and (4 + \"a\" == \"4a\")  "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2021876063",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "191441848",
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "(\"a\" == \"A\") or (0 > 1)  "
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1377192555",
+                  "type": "input_ref"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "id": "191441848",
+              "type": "li"
+            }
+          ],
+          "type": "ol"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "191441848",
+          "type": "p"
+        }
+      ],
+      "id": "949460225"
+    }
+  },
+  "id": "1798",
+  "objectives": {
+    "4259578150": [
+      "1231"
+    ],
+    "488835582": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1663",
+    "1667"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

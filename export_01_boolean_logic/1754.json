@@ -1,0 +1,198 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "896106725",
+                  "type": "p"
+                }
+              ],
+              "id": "4031413062"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1236777965",
+                  "type": "p"
+                }
+              ],
+              "id": "664131290"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4248865948",
+                  "type": "p"
+                }
+              ],
+              "id": "287018902"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep it up !! "
+                      }
+                    ],
+                    "id": "3450752576",
+                    "type": "p"
+                  }
+                ],
+                "id": "3888461804"
+              },
+              "id": "2954264928",
+              "rule": "input like {1150220287}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "My suggestion would be to read the question carefully."
+                      }
+                    ],
+                    "id": "2584949667",
+                    "type": "p"
+                  }
+                ],
+                "id": "3266089303"
+              },
+              "id": "2932958130",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "name = 'Anna'print('my name is', Anna)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "4223706696",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Syntax Error"
+              }
+            ],
+            "id": "1694205123",
+            "type": "p"
+          }
+        ],
+        "id": "425756089"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Name Error"
+              }
+            ],
+            "id": "847750250",
+            "type": "p"
+          }
+        ],
+        "id": "1150220287"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Indentation Error"
+              }
+            ],
+            "id": "655680040",
+            "type": "p"
+          }
+        ],
+        "id": "1824049396"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "name = 'Anna'"
+            }
+          ],
+          "id": "627198021",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print('my name is', Anna)"
+            }
+          ],
+          "id": "627198021",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "627198021",
+          "type": "p"
+        }
+      ],
+      "id": "850972766"
+    }
+  },
+  "id": "1754",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1663",
+    "1802",
+    "1661"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

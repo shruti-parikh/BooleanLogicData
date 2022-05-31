@@ -1,0 +1,248 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not enabled for graded tests."
+                    }
+                  ],
+                  "id": "1585404501",
+                  "type": "p"
+                }
+              ],
+              "id": "2431666856"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3785166807",
+                  "type": "p"
+                }
+              ],
+              "id": "1487632224"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1223433554",
+                  "type": "p"
+                }
+              ],
+              "id": "1460397797"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You got it right!"
+                      }
+                    ],
+                    "id": "4208925229",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "The following code throws a syntax error, as a colon( : ) is missing in the function definition and also a colon is present in return statement."
+                      }
+                    ],
+                    "id": "4208925229",
+                    "type": "p"
+                  }
+                ],
+                "id": "4130073855"
+              },
+              "id": "1326254233",
+              "rule": "input like {4288355954}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! Something was not right about your answer.  Lets learn  the python errors in the next module."
+                      }
+                    ],
+                    "id": "1267118522",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "1267118522",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "1267118522",
+                    "type": "p"
+                  }
+                ],
+                "id": "3372062275"
+              },
+              "id": "1352261835",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "810458170",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Syntax Error"
+              }
+            ],
+            "id": "3376986119",
+            "type": "p"
+          }
+        ],
+        "id": "4288355954"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Runtime Error"
+              }
+            ],
+            "id": "891619749",
+            "type": "p"
+          }
+        ],
+        "id": "1937620716"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "No Error"
+              }
+            ],
+            "id": "3648627803",
+            "type": "p"
+          }
+        ],
+        "id": "1797505957"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Logical Error"
+              }
+            ],
+            "id": "126806924",
+            "type": "p"
+          }
+        ],
+        "id": "3021659746"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file."
+            }
+          ],
+          "id": "14903963",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3450475559",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3608255256",
+          "src": "data:image/png;base64,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",
+          "type": "img"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3730922510",
+          "type": "p"
+        }
+      ],
+      "id": "3170558590"
+    }
+  },
+  "id": "1929",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1919",
+    "1661"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

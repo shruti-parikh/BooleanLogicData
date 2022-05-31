@@ -1,0 +1,163 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Solve the boolean expression given and answer the result which is a boolean value."
+                    }
+                  ],
+                  "id": "732110010",
+                  "type": "p"
+                }
+              ],
+              "id": "1139768639"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Solve the individual expressions present inside the parenthesis, then combine the output of those with the ("
+                    },
+                    {
+                      "code": true,
+                      "text": "Or"
+                    },
+                    {
+                      "text": ") operator as given in the question. ( Refer to the truth tables given in the course content). "
+                    }
+                  ],
+                  "id": "1050280108",
+                  "type": "p"
+                }
+              ],
+              "id": "901057558"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "(True and True) or ( not (False or True))"
+                    }
+                  ],
+                  "id": "2039289541",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "True and True  --> True "
+                    }
+                  ],
+                  "id": "2039289541",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "False or True  --> True , not (True ) -- > False"
+                    }
+                  ],
+                  "id": "2039289541",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "True or False  -- > "
+                    },
+                    {
+                      "strong": true,
+                      "text": "True"
+                    }
+                  ],
+                  "id": "2039289541",
+                  "type": "p"
+                }
+              ],
+              "id": "1134980122"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done !"
+                      }
+                    ],
+                    "id": "512966671",
+                    "type": "p"
+                  }
+                ],
+                "id": "1938540653"
+              },
+              "id": "3225759501",
+              "rule": "input like {^True$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Not to worry ,keep going . Go through the resources once again."
+                      }
+                    ],
+                    "id": "446990408",
+                    "type": "p"
+                  }
+                ],
+                "id": "47583097"
+              },
+              "id": "1265442148",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Evaluate the expression (True and True) or ( not (False or True))",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Evaluate the expression (True and True) or ( not (False or True))"
+            }
+          ],
+          "id": "2721590720",
+          "type": "p"
+        }
+      ],
+      "id": "655601825"
+    }
+  },
+  "id": "1601",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1662"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

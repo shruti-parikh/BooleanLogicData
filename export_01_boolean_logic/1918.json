@@ -1,0 +1,261 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for graded assignment."
+                    }
+                  ],
+                  "id": "114612547",
+                  "type": "p"
+                }
+              ],
+              "id": "1166115666"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1258206942",
+                  "type": "p"
+                }
+              ],
+              "id": "978069908"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3563330192",
+                  "type": "p"
+                }
+              ],
+              "id": "4054008902"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done !"
+                      }
+                    ],
+                    "id": "611677230",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "611677230",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Given x = 25"
+                      }
+                    ],
+                    "id": "611677230",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "not (x <= 100 or x >20)"
+                      }
+                    ],
+                    "id": "611677230",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "Explanation : "
+                      },
+                      {
+                        "text": "let us break the question first and then combine "
+                      }
+                    ],
+                    "id": "611677230",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": " x <= 100  --> True"
+                          }
+                        ],
+                        "id": "611677230",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": " x >20 --> True"
+                          }
+                        ],
+                        "id": "611677230",
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "So "
+                      },
+                      {
+                        "strong": true,
+                        "text": "not (True or True)"
+                      },
+                      {
+                        "text": " is the equation that we get."
+                      }
+                    ],
+                    "id": "3181556000",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "True or True --> True "
+                      }
+                    ],
+                    "id": "3181556000",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "not (True) --> False"
+                      }
+                    ],
+                    "id": "3181556000",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "611677230",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "ANS = False"
+                      }
+                    ],
+                    "id": "611677230",
+                    "type": "p"
+                  }
+                ],
+                "id": "2682490205"
+              },
+              "id": "823560728",
+              "rule": "input like {^False$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oops! Something was not right about your answer. Lets learn about the logical operators in the upcoming module."
+                      }
+                    ],
+                    "id": "2654256874",
+                    "type": "p"
+                  }
+                ],
+                "id": "3524166773"
+              },
+              "id": "3544422950",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Guess the ResultIf x = 25, what will the following expressions evaluate to?not (x <= 100 or x >20)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Guess the Result"
+            }
+          ],
+          "id": "2868310760",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "If x = 25, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "2868310760",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "not (x <= 100 or x >20)"
+            }
+          ],
+          "id": "2868310760",
+          "type": "p"
+        }
+      ],
+      "id": "2644306766"
+    }
+  },
+  "id": "1918",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1919",
+    "1661"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,252 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, Hints are not enabled for Graded assignment."
+                    }
+                  ],
+                  "id": "2221285063",
+                  "type": "p"
+                }
+              ],
+              "id": "1662594041"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "594141252",
+                  "type": "p"
+                }
+              ],
+              "id": "1905202745"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "strong": true,
+                      "text": ""
+                    }
+                  ],
+                  "id": "902272307",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3262394826",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "strong": true,
+                      "text": ""
+                    }
+                  ],
+                  "id": "902272307",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "902272307",
+                  "type": "p"
+                }
+              ],
+              "id": "696816807"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Wow. You just solved a question using you first logical operator. "
+                      }
+                    ],
+                    "id": "2421252340",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If 5 is substituted in the equation, (x >= 0) and (x < 10),"
+                      }
+                    ],
+                    "id": "2421252340",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "=> (5 >= 0) "
+                      },
+                      {
+                        "code": true,
+                        "text": "and"
+                      },
+                      {
+                        "text": " (5 < 10)"
+                      }
+                    ],
+                    "id": "2421252340",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "=> ("
+                      },
+                      {
+                        "code": true,
+                        "text": "True"
+                      },
+                      {
+                        "text": ") "
+                      },
+                      {
+                        "code": true,
+                        "text": "and "
+                      },
+                      {
+                        "text": "("
+                      },
+                      {
+                        "code": true,
+                        "text": "True"
+                      },
+                      {
+                        "text": ")"
+                      }
+                    ],
+                    "id": "2421252340",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "=> "
+                      },
+                      {
+                        "code": true,
+                        "text": "True"
+                      }
+                    ],
+                    "id": "2421252340",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Hence the final answer is True."
+                      }
+                    ],
+                    "id": "2421252340",
+                    "type": "p"
+                  }
+                ],
+                "id": "914125436"
+              },
+              "id": "3195693287",
+              "rule": "input like {^True$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "That's not quite right. Lets learn the logical operation in the upcoming module."
+                      }
+                    ],
+                    "id": "1846500862",
+                    "type": "p"
+                  }
+                ],
+                "id": "90903919"
+              },
+              "id": "770576792",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "If x = 5, what will the following expressions evaluate to?(x >= 0) and (x < 10)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "If x = 5, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "3262394826",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "(x >= 0) and (x < 10)"
+            }
+          ],
+          "id": "3262394826",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3262394826",
+          "type": "p"
+        }
+      ],
+      "id": "2320149941"
+    }
+  },
+  "id": "1604",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1919",
+    "1661"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

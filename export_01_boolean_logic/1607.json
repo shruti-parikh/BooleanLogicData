@@ -1,0 +1,234 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Given x = 10, solve the equation and apply given logical operation to obtain the result."
+                    }
+                  ],
+                  "id": "3057968447",
+                  "type": "p"
+                }
+              ],
+              "id": "146778020"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Refer to "
+                    },
+                    {
+                      "code": true,
+                      "text": "and "
+                    },
+                    {
+                      "text": "and "
+                    },
+                    {
+                      "code": true,
+                      "text": "not "
+                    },
+                    {
+                      "text": "truth tables to solve the equation."
+                    }
+                  ],
+                  "id": "1613030172",
+                  "type": "p"
+                }
+              ],
+              "id": "36157664"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "x = 10"
+                    }
+                  ],
+                  "id": "1290492405",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "not (x > 5 and x < 10)"
+                    }
+                  ],
+                  "id": "1290492405",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "strong": true,
+                      "text": "Explanation"
+                    }
+                  ],
+                  "id": "1290492405",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-> not(True and False)"
+                    }
+                  ],
+                  "id": "1290492405",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-> not (False)"
+                    }
+                  ],
+                  "id": "1290492405",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "ANS = "
+                    },
+                    {
+                      "strong": true,
+                      "text": "True"
+                    }
+                  ],
+                  "id": "1290492405",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1290492405",
+                  "type": "p"
+                }
+              ],
+              "id": "3468786290"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done!"
+                      }
+                    ],
+                    "id": "1341922989",
+                    "type": "p"
+                  }
+                ],
+                "id": "705061947"
+              },
+              "id": "3720684675",
+              "rule": "input like {^True$}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep solving !! check for the hints. If you are still facing difficulty solving. Re-read the "
+                      },
+                      {
+                        "code": true,
+                        "text": "and "
+                      },
+                      {
+                        "text": "and "
+                      },
+                      {
+                        "code": true,
+                        "text": "not "
+                      },
+                      {
+                        "text": "operations from the the content."
+                      }
+                    ],
+                    "id": "2120557406",
+                    "type": "p"
+                  }
+                ],
+                "id": "664234178"
+              },
+              "id": "849419583",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Guess the ResultIf x = 10, what will the following expressions evaluate to?not (x > 5 and x < 10)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Guess the Result"
+            }
+          ],
+          "id": "89376413",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "If x = 10, what will the following expressions evaluate to?"
+            }
+          ],
+          "id": "89376413",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "not (x > 5 and x < 10)"
+            }
+          ],
+          "id": "89376413",
+          "type": "p"
+        }
+      ],
+      "id": "1953312758"
+    }
+  },
+  "id": "1607",
+  "objectives": {
+    "1": [
+      "1231"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1663",
+    "1667"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,144 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1521274212",
+                  "type": "p"
+                }
+              ],
+              "id": "3094665299"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "7395754",
+                  "type": "p"
+                }
+              ],
+              "id": "3117263856"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1826541047",
+                  "type": "p"
+                }
+              ],
+              "id": "504783389"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "3974035441",
+                    "type": "p"
+                  }
+                ],
+                "id": "1783363846"
+              },
+              "id": "2099198429",
+              "rule": "input contains {answer}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2148720285",
+                    "type": "p"
+                  }
+                ],
+                "id": "212378275"
+              },
+              "id": "780405756",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file.",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What type of error is produced on the following blocks of code? Assume that there is no other code in the file."
+            }
+          ],
+          "id": "3864297606",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1353053412",
+          "src": "data:image/png;base64,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",
+          "type": "img"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "609260239",
+          "type": "p"
+        }
+      ],
+      "id": "4279091738"
+    }
+  },
+  "id": "1928",
+  "objectives": {
+    "1": [
+      "1232"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

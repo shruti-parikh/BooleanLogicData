@@ -1,0 +1,385 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Project description"
+              }
+            ],
+            "id": "917744253",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1487600180",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "The production system or production rule system is a computer program typically used to provide some form of artificial intelligence, which consists primarily of an expression (set of rules) about behaviour. Still, it also includes the mechanism necessary to follow those rules as the system responds to states of the world."
+              }
+            ],
+            "id": "917744253",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "917744253",
+            "type": "p"
+          }
+        ],
+        "id": "1665226626",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "For example The following production-based rule system"
+              }
+            ],
+            "id": "4085587086",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Person name bill, age 20, can take order"
+              }
+            ],
+            "id": "4085587086",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "The expression will be name == “bill” and age == 20"
+              }
+            ],
+            "id": "4085587086",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "4085587086",
+            "type": "p"
+          }
+        ],
+        "id": "2192263481",
+        "purpose": "example",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Your job is to write the expressions for the following production-based rules system"
+              }
+            ],
+            "id": "2139918375",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "gender is Male, age greater than 18 can vote"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Bird weighs less than 100 grams, and weights greater than 500 grams are Defective."
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Brick section B size 30 can load"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Person age 27, home Toronto, gender male can leave home"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Student name john, major CS got admission"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Person age less than 12, age greater than 60  can get a concession"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Pizza does not contain olive, onion can’t serve"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Mobiles price 35.5k, Brand Celio is defective"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "People who have Breakfast before 9 AM, and lunch between 9 AM to 1 PM can join the race"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Birds belonging to not parrot, not the pigeon race may become extinct"
+                  }
+                ],
+                "id": "2139918375",
+                "type": "li"
+              }
+            ],
+            "type": "ol"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "2139918375",
+            "type": "p"
+          }
+        ],
+        "id": "2677994052",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Step- by step guide"
+              }
+            ],
+            "id": "1407595920",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "67460373",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "Read the problem description, and understand the given examples by relating them to the text given in the description."
+                  }
+                ],
+                "id": "4226915619",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Understand the rule systems and identify the issue that needs to be addressed."
+                  }
+                ],
+                "id": "636505712",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Recall the concept of the Boolean logic you learned in the instructional activities, which can be applied to the given problem statement."
+                  }
+                ],
+                "id": "636505712",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Identify and note down all the conditions from the rule system given."
+                  }
+                ],
+                "id": "636505712",
+                "type": "li"
+              }
+            ],
+            "type": "ol"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "3972208229",
+            "type": "p"
+          }
+        ],
+        "id": "1794977464",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Rubric:"
+              }
+            ],
+            "id": "636505712",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": "The document should cover the expressions for all the given production-based rules."
+              }
+            ],
+            "id": "636505712",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Incomplete: If the report did not cover the expressions for all the given production-based rules or if the expressions didn’t match the given production-based rules"
+              }
+            ],
+            "id": "636505712",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Mastery: If the report covers the matched expressions for the given production-based rules"
+              }
+            ],
+            "id": "636505712",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Exemplary: Completed this task flawlessly without any re-submission"
+              }
+            ],
+            "id": "636505712",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "636505712",
+            "type": "p"
+          }
+        ],
+        "id": "3045900871",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Submission Format:"
+              }
+            ],
+            "id": "1347711629",
+            "type": "h1"
+          },
+          {
+            "children": [
+              {
+                "text": "Submit a document with all the production-based rules and their expressions, as shown in the example"
+              }
+            ],
+            "id": "636505712",
+            "type": "p"
+          }
+        ],
+        "id": "745315935",
+        "purpose": "none",
+        "type": "content"
+      }
+    ]
+  },
+  "id": "2564",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Convert rules to Boolean expressions",
+  "type": "Page",
+  "unresolvedReferences": []
+}
